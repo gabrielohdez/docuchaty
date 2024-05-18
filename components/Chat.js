@@ -1,4 +1,4 @@
-// components/Chat.jsxx
+// components/Chat.jsxxx
 import { useState } from 'react';
 import axios from 'axios';
 

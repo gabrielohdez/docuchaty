@@ -1,4 +1,4 @@
-// pages/index.jsxx
+// pages/index.jsxxx
 import Head from 'next/head';
 import Chat from '../components/Chat';
 

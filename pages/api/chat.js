@@ -1,4 +1,4 @@
-// pages/api/chat.jsxxx
+// pages/api/chat.jsxxxx
 import axios from 'axios';
 
 export default async function handler(req, res) {
