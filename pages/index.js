@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>DocuChaty</title>
+        <title>Calidad Comercial A SIGET</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
