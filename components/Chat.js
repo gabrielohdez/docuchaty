@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import styles from '../styles/Chat.module.css';
+import Image from 'next/image';
 
 const Chat = () => {
   const [message, setMessage] = useState('');
@@ -19,6 +20,16 @@ const Chat = () => {
   return (
     <div className={styles.chatContainer}>
       <div className={styles.chatBox}>
+        <div className={styles.header}>
+          DocuChaty
+        </div>
+        <Image
+          src="/logo.png"
+          alt="Logo"
+          className={styles.logo}
+          width={150}
+          height={150}
+        />
         <textarea
           className={styles.textarea}
           value={message}
