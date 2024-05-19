@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1 className={styles.title}>Bienvenido a DocuChaty</h1>
+        <h1 className={styles.title}>Bienvenido a DocuChaty v1.0</h1>
         <Chat />
       </main>
     </div>
