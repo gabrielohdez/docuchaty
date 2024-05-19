@@ -9,11 +9,20 @@ const Chat = () => {
   const [response, setResponse] = useState('');
 
   const sendMessage = async () => {
+    if (message.trim() === '') return; // No enviar mensajes vacíos
     try {
       const res = await axios.post('/api/chat', { message });
       setResponse(res.data.message);
+      setMessage(''); // Limpiar el campo de texto después de enviar
     } catch (error) {
       setResponse('Error: ' + error.message);
+    }
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      sendMessage();
     }
   };
 
@@ -21,7 +30,7 @@ const Chat = () => {
     <div className={styles.chatContainer}>
       <div className={styles.chatBox}>
         <div className={styles.header}>
-          DocuChaty
+          Calidad Comercial
         </div>
         <Image
           src="/logo.png"
@@ -34,9 +43,10 @@ const Chat = () => {
           className={styles.textarea}
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          placeholder="Type your message here..."
+          onKeyPress={handleKeyPress}
+          placeholder="Escribe tu consulta aquí..."
         />
-        <button className={styles.button} onClick={sendMessage}>Send</button>
+        <button className={styles.button} onClick={sendMessage}>Consultar</button>
         {response && <div className={styles.response}>{response}</div>}
       </div>
     </div>

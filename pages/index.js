@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>Welcome to DocuChaty</h1>
+        <h1>Bienvenido al Consultor de Servicio Comercial Anexo A SIGET</h1>
         <Chat />
       </main>
     </div>
