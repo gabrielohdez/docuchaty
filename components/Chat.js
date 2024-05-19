@@ -34,7 +34,7 @@ const Chat = () => {
     <div className={styles.chatContainer}>
       <div className={styles.chatBox}>
         <div className={styles.header}>
-          DocuChaty
+        Calidad Comercial Anexo A SIGET
         </div>
         <Image
           src="/logo.png"
