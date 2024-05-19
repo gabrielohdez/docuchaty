@@ -7,15 +7,19 @@ import Image from 'next/image';
 const Chat = () => {
   const [message, setMessage] = useState('');
   const [response, setResponse] = useState('');
+  const [loading, setLoading] = useState(false);
 
   const sendMessage = async () => {
     if (message.trim() === '') return; // No enviar mensajes vacíos
+    setLoading(true);
     try {
       const res = await axios.post('/api/chat', { message });
       setResponse(res.data.message);
       setMessage(''); // Limpiar el campo de texto después de enviar
     } catch (error) {
       setResponse('Error: ' + error.message);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -30,7 +34,7 @@ const Chat = () => {
     <div className={styles.chatContainer}>
       <div className={styles.chatBox}>
         <div className={styles.header}>
-          Calidad Comercial
+          DocuChaty
         </div>
         <Image
           src="/logo.png"
@@ -46,7 +50,8 @@ const Chat = () => {
           onKeyPress={handleKeyPress}
           placeholder="Escribe tu consulta aquí..."
         />
-        <button className={styles.button} onClick={sendMessage}>Consultar</button>
+        <button className={styles.button} onClick={sendMessage} disabled={loading}>Consultar</button>
+        {loading && <p className={styles.loading}>Consultando...</p>}
         {response && <div className={styles.response}>{response}</div>}
       </div>
     </div>

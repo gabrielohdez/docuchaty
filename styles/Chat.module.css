@@ -67,6 +67,18 @@
   background-color: #005bb5;
 }
 
+.button:disabled {
+  background-color: #0070f3;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.loading {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #0070f3;
+}
+
 .response {
   width: 100%;
   margin-top: 20px;
