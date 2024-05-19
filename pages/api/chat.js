@@ -3,26 +3,28 @@ import axios from 'axios';
 import { readPDFs } from '../../lib/documentProcessor';
 
 const generateResponse = async (message, documents) => {
-  // Aquí puedes utilizar los documentos para generar una respuesta más contextual
-  // Para simplificar, vamos a concatenar el contenido de todos los documentos
+  try {
+    const documentContent = documents.map(doc => doc.content).join('\n');
 
-  const documentContent = documents.map(doc => doc.content).join('\n');
+    const response = await axios.post('https://api.openai.com/v1/chat/completions', {
+      model: 'gpt-3.5-turbo',
+      messages: [
+        { role: 'system', content: 'You are an assistant that provides information based on the following documents.' },
+        { role: 'system', content: documentContent },
+        { role: 'user', content: message },
+      ],
+    }, {
+      headers: {
+        'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
+        'Content-Type': 'application/json',
+      },
+    });
 
-  const response = await axios.post('https://api.openai.com/v1/chat/completions', {
-    model: 'gpt-3.5-turbo',
-    messages: [
-      { role: 'system', content: 'You are an assistant that provides information based on the following documents.' },
-      { role: 'system', content: documentContent },
-      { role: 'user', content: message },
-    ],
-  }, {
-    headers: {
-      'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
-      'Content-Type': 'application/json',
-    },
-  });
-
-  return response.data.choices[0].message.content;
+    return response.data.choices[0].message.content;
+  } catch (error) {
+    console.error('Error in generateResponse:', error.message);
+    throw new Error('Error generating response from OpenAI');
+  }
 };
 
 export default async function handler(req, res) {
@@ -37,10 +39,17 @@ export default async function handler(req, res) {
   }
 
   try {
+    console.log('Reading PDFs...');
     const documents = await readPDFs();
+    console.log('Documents read:', documents);
+
+    console.log('Generating response...');
     const gptMessage = await generateResponse(message, documents);
+    console.log('GPT Message:', gptMessage);
+
     res.status(200).json({ message: gptMessage });
   } catch (error) {
+    console.error('Error in handler:', error.message);
     res.status(500).json({ message: error.message });
   }
 }
