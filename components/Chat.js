@@ -1,7 +1,7 @@
 // components/Chat.js
 import { useState } from 'react';
 import axios from 'axios';
-import styles from '../styles/Chat.module.css';
+import { Box, Button, CircularProgress, Container, Paper, TextField, Typography } from '@mui/material';
 import Image from 'next/image';
 
 const Chat = () => {
@@ -31,30 +31,42 @@ const Chat = () => {
   };
 
   return (
-    <div className={styles.chatContainer}>
-      <div className={styles.chatBox}>
-        <div className={styles.header}>
-        Calidad Comercial Anexo A SIGET
-        </div>
-        <Image
-          src="/logo.png"
-          alt="Logo"
-          className={styles.logo}
-          width={150}
-          height={150}
-        />
-        <textarea
-          className={styles.textarea}
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-          onKeyPress={handleKeyPress}
-          placeholder="Escribe tu consulta aquí..."
-        />
-        <button className={styles.button} onClick={sendMessage} disabled={loading}>Consultar</button>
-        {loading && <p className={styles.loading}>Consultando...</p>}
-        {response && <div className={styles.response}>{response}</div>}
-      </div>
-    </div>
+    <Container maxWidth="sm">
+      <Paper elevation={3} sx={{ padding: 2, marginTop: 4 }}>
+        <Box display="flex" flexDirection="column" alignItems="center">
+          <Typography variant="h4" component="div" gutterBottom>
+            DocuChaty
+          </Typography>
+          <Image
+            src="/logo.png"
+            alt="Logo"
+            width={150}
+            height={150}
+            style={{ marginBottom: 20 }}
+          />
+          <TextField
+            fullWidth
+            multiline
+            minRows={4}
+            variant="outlined"
+            placeholder="Type your message here..."
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            onKeyPress={handleKeyPress}
+            sx={{ marginBottom: 2 }}
+          />
+          <Button variant="contained" color="primary" onClick={sendMessage} disabled={loading}>
+            Send
+          </Button>
+          {loading && <CircularProgress sx={{ marginTop: 2 }} />}
+          {response && (
+            <Paper elevation={1} sx={{ padding: 2, marginTop: 2, width: '100%' }}>
+              <Typography>{response}</Typography>
+            </Paper>
+          )}
+        </Box>
+      </Paper>
+    </Container>
   );
 };
 
