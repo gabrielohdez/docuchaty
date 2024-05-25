@@ -4,7 +4,7 @@ import axios from 'axios';
 import { Box, Button, CircularProgress, Container, Paper, TextField, Typography } from '@mui/material';
 import Image from 'next/image';
 
-const Chat = () => {
+const Chat = ({ selectedOption }) => {
   const [message, setMessage] = useState('');
   const [response, setResponse] = useState('');
   const [loading, setLoading] = useState(false);
@@ -13,7 +13,7 @@ const Chat = () => {
     if (message.trim() === '') return; // No enviar mensajes vacíos
     setLoading(true);
     try {
-      const res = await axios.post('/api/chat', { message });
+      const res = await axios.post('/api/chat', { message, document: selectedOption });
       setResponse(res.data.message);
       setMessage(''); // Limpiar el campo de texto después de enviar
     } catch (error) {
@@ -31,8 +31,8 @@ const Chat = () => {
   };
 
   return (
-    <Container maxWidth="sm">
-      <Paper elevation={3} sx={{ padding: 2, marginTop: 4 }}>
+    <Container maxWidth="sm" sx={{ marginTop: 4 }}>
+      <Paper elevation={3} sx={{ padding: 2 }}>
         <Box display="flex" flexDirection="column" alignItems="center">
           <Typography variant="h4" component="div" gutterBottom>
             DocuChaty

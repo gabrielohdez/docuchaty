@@ -42,10 +42,10 @@ export default async function handler(req, res) {
     return res.status(405).json({ message: 'Only POST requests allowed' });
   }
 
-  const { message } = req.body;
+  const { message, document } = req.body;
 
-  if (!message) {
-    return res.status(400).json({ message: 'Message is required' });
+  if (!message || !document) {
+    return res.status(400).json({ message: 'Message and document are required' });
   }
 
   const cachedResponse = getCachedResponse(message);
@@ -55,7 +55,7 @@ export default async function handler(req, res) {
 
   try {
     console.log('Reading PDFs...');
-    const documents = await readPDFs();
+    const documents = await readPDFs([document]);
     console.log('Documents read:', documents);
 
     console.log('Generating response...');
