@@ -2,6 +2,16 @@
 import axios from 'axios';
 import { readPDFs } from '../../lib/documentProcessor';
 
+const cache = {};
+
+const getCachedResponse = (message) => {
+  return cache[message];
+};
+
+const cacheResponse = (message, response) => {
+  cache[message] = response;
+};
+
 const generateResponse = async (message, documents) => {
   try {
     const documentContent = documents.map(doc => doc.content).join('\n');
@@ -38,6 +48,11 @@ export default async function handler(req, res) {
     return res.status(400).json({ message: 'Message is required' });
   }
 
+  const cachedResponse = getCachedResponse(message);
+  if (cachedResponse) {
+    return res.status(200).json({ message: cachedResponse });
+  }
+
   try {
     console.log('Reading PDFs...');
     const documents = await readPDFs();
@@ -47,6 +62,7 @@ export default async function handler(req, res) {
     const gptMessage = await generateResponse(message, documents);
     console.log('GPT Message:', gptMessage);
 
+    cacheResponse(message, gptMessage);
     res.status(200).json({ message: gptMessage });
   } catch (error) {
     console.error('Error in handler:', error.message);
