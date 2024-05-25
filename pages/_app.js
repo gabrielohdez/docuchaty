@@ -1,6 +1,6 @@
 // pages/_app.js
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
-import '../styles/globals.css';
+import '../styles/globals.css';  // Importar el archivo de estilos globales
 
 const theme = createTheme({
   palette: {
