@@ -2,7 +2,7 @@
 import Head from 'next/head';
 import { useState } from 'react';
 import Chat from '../components/Chat';
-import { Container, Typography, Button, Box, Paper, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
+import { Container, Button, Box, Paper, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
 
 export default function Home() {
   const [selectedOption, setSelectedOption] = useState(null);
@@ -29,7 +29,6 @@ export default function Home() {
       </Head>
       <Container maxWidth="sm">
         <Box display="flex" flexDirection="column" alignItems="center" mt={4}>
-          <Typography variant="h3" gutterBottom>Bienvenido a DocuChaty</Typography>
           <Button variant="contained" color="primary" onClick={handleClickOpen}>
             Seleccione una opción
           </Button>
