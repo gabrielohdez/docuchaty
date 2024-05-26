@@ -1,6 +1,5 @@
 // components/Chat.js
 import { useState, useEffect } from 'react';
-import axios from 'axios';
 import { Box, Button, CircularProgress, Container, Paper, TextField, Typography } from '@mui/material';
 import Image from 'next/image';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
@@ -10,7 +9,7 @@ const Chat = ({ selectedOption }) => {
   const [response, setResponse] = useState('');
   const [loading, setLoading] = useState(false);
   const [chatHistory, setChatHistory] = useState([]);
-  
+
   useEffect(() => {
     if (selectedOption) {
       setChatHistory([`Usted está consultando: ${selectedOption.replace('_', ' ')}`]);
@@ -20,16 +19,29 @@ const Chat = ({ selectedOption }) => {
   const sendMessage = async () => {
     if (message.trim() === '') return; // No enviar mensajes vacíos
     setLoading(true);
-    try {
-      const res = await axios.post('/api/chat', { message, document: selectedOption });
-      setResponse(res.data.message);
-      setChatHistory([...chatHistory, `You: ${message}`, `Bot: ${res.data.message}`]);
-      setMessage(''); // Limpiar el campo de texto después de enviar
-    } catch (error) {
-      setResponse('Error: ' + error.message);
-    } finally {
+    setResponse(''); // Limpiar respuesta previa
+
+    const eventSource = new EventSource(`/api/chat-sse?message=${message}&document=${selectedOption}`);
+
+    eventSource.onmessage = (event) => {
+      const newMessage = JSON.parse(event.data).message;
+      setResponse((prevResponse) => prevResponse + newMessage);
+    };
+
+    eventSource.onerror = (event) => {
+      console.error('EventSource failed:', event);
+      eventSource.close();
       setLoading(false);
-    }
+    };
+
+    eventSource.onopen = () => {
+      setChatHistory([...chatHistory, `You: ${message}`]);
+      setMessage(''); // Limpiar el campo de texto después de enviar
+    };
+
+    eventSource.onclose = () => {
+      setLoading(false);
+    };
   };
 
   const handleKeyPress = (e) => {
