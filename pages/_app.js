@@ -1,6 +1,7 @@
 // pages/_app.js
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 import '../styles/globals.css';  // Importar el archivo de estilos globales
+import Script from 'next/script';
 
 const theme = createTheme({
   palette: {
@@ -12,10 +13,16 @@ const theme = createTheme({
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Component {...pageProps} />
-    </ThemeProvider>
+    <>
+      <Script
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+        strategy="beforeInteractive"
+      />
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </>
   );
 }
 

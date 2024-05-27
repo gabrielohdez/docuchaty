@@ -3,6 +3,9 @@ import { useState, useEffect } from 'react';
 import { Box, Button, CircularProgress, Container, Paper, TextField, Typography } from '@mui/material';
 import Image from 'next/image';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
+import dynamic from 'next/dynamic';
+
+const MathJax = dynamic(() => import('react-mathjax'), { ssr: false });
 
 const Chat = ({ selectedOption }) => {
   const [message, setMessage] = useState('');
@@ -101,7 +104,11 @@ const Chat = ({ selectedOption }) => {
           {response && (
             <Box width="100%" sx={{ marginBottom: 2 }}>
               <Paper elevation={1} sx={{ padding: 2, marginTop: 2, width: '100%' }}>
-                <Typography>{response}</Typography>
+                <MathJax.Provider>
+                  <Typography>
+                    <MathJax.Node>{response}</MathJax.Node>
+                  </Typography>
+                </MathJax.Provider>
               </Paper>
               <Button
                 variant="outlined"
