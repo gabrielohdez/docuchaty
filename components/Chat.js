@@ -3,9 +3,7 @@ import { useState, useEffect } from 'react';
 import { Box, Button, CircularProgress, Container, Paper, TextField, Typography } from '@mui/material';
 import Image from 'next/image';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
-import dynamic from 'next/dynamic';
-
-const MathJax = dynamic(() => import('react-mathjax'), { ssr: false });
+import { MathJax, MathJaxContext } from 'better-react-mathjax';
 
 const Chat = ({ selectedOption }) => {
   const [message, setMessage] = useState('');
@@ -18,6 +16,12 @@ const Chat = ({ selectedOption }) => {
       setChatHistory([`Usted está consultando: ${selectedOption.replace('_', ' ')}`]);
     }
   }, [selectedOption]);
+
+  useEffect(() => {
+    if (window.MathJax) {
+      window.MathJax.typeset();
+    }
+  }, [response]);
 
   const sendMessage = async () => {
     if (message.trim() === '') return; // No enviar mensajes vacíos
@@ -104,11 +108,11 @@ const Chat = ({ selectedOption }) => {
           {response && (
             <Box width="100%" sx={{ marginBottom: 2 }}>
               <Paper elevation={1} sx={{ padding: 2, marginTop: 2, width: '100%' }}>
-                <MathJax.Provider>
+                <MathJaxContext>
                   <Typography>
-                    <MathJax.Node>{response}</MathJax.Node>
+                    <MathJax>{response}</MathJax>
                   </Typography>
-                </MathJax.Provider>
+                </MathJaxContext>
               </Paper>
               <Button
                 variant="outlined"
