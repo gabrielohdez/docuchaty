@@ -1,6 +1,6 @@
 // pages/api/chat-sse.js
 import axios from 'axios';
-import { readPDFs } from '../../lib/documentProcessor';
+import { readTXTFiles } from '../../lib/documentProcessor';
 
 export default async function handler(req, res) {
   if (req.method !== 'GET') {
@@ -8,10 +8,10 @@ export default async function handler(req, res) {
     return res.status(405).end(`Method ${req.method} Not Allowed`);
   }
 
-  const { document } = req.query;
+  const { document, message } = req.query;
 
-  if (!document) {
-    return res.status(400).json({ message: 'Document is required' });
+  if (!document || !message) {
+    return res.status(400).json({ message: 'Document and message are required' });
   }
 
   res.setHeader('Content-Type', 'text/event-stream');
@@ -27,8 +27,8 @@ export default async function handler(req, res) {
   };
 
   try {
-    console.log('Reading PDFs...');
-    const documents = await readPDFs([document]);
+    console.log('Reading TXT files...');
+    const documents = await readTXTFiles([document]);
     console.log('Documents read:', documents);
 
     console.log('Generating response...');
@@ -38,7 +38,7 @@ export default async function handler(req, res) {
       messages: [
         { role: 'system', content: 'You are an assistant that provides information based on the following documents.' },
         { role: 'system', content: documentContent },
-        { role: 'user', content: req.query.message },
+        { role: 'user', content: message },
       ],
     }, {
       headers: {
