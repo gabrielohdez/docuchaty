@@ -1,359 +1,359 @@
-Anexo A
+ÔªøAnexo A
 
-MetodologÌa Para el Control de la Calidad del Servicio Comercial
+Metodolog√≠a Para el Control de la Calidad del Servicio Comercial
 
 Diciembre 2014
 
 ---
 
-ÕNDICE
+√çNDICE
 
-1. INTRODUCCI”N 1-2
+1. INTRODUCCI√ìN 1-2
 
-2. SISTEMA DE INFORMACI”N EN BASES DE DATOS 2-1
+2. SISTEMA DE INFORMACI√ìN EN BASES DE DATOS 2-1
    2.1 Generalidades 2-1
-   2.2 Criterios de ExtracciÛn de Datos 2-1
+   2.2 Criterios de Extracci√≥n de Datos 2-1
       2.2.1 Datos Comerciales de los Usuarios 2-1
-      2.2.2 Solicitudes de ConexiÛn de Servicio 2-2
-      2.2.3 ReposiciÛn de Suministro DespuÈs de un Reclamo por una InterrupciÛn 2-2
+      2.2.2 Solicitudes de Conexi√≥n de Servicio 2-2
+      2.2.3 Reposici√≥n de Suministro Despu√©s de un Reclamo por una Interrupci√≥n 2-2
       2.2.4 Rehabilitaciones de Suministro Suspendidos por Falta de Pago 2-2
       2.2.5 Reclamos 2-2
-      2.2.6 FacturaciÛn Estimada 2-2
-      2.2.7 PrecisiÛn del Medidor de Consumo de EnergÌa ElÈctrica 2-2
-   2.3 ClasificaciÛn de los Usuarios de Acuerdo a Densidad Demogr·fica 2-2
+      2.2.6 Facturaci√≥n Estimada 2-2
+      2.2.7 Precisi√≥n del Medidor de Consumo de Energ√≠a El√©ctrica 2-2
+   2.3 Clasificaci√≥n de los Usuarios de Acuerdo a Densidad Demogr√°fica 2-2
 
-3. CRITERIOS PARA LA DETERMINACI”N DE LOS INDICADORES 3-1
+3. CRITERIOS PARA LA DETERMINACI√ìN DE LOS INDICADORES 3-1
    3.1 Niveles Globales de Calidad del Servicio Comercial 3-1
       a. Conexiones de Servicio 3-1
-      b. Usuarios Reconectados DespuÈs de una InterrupciÛn 3-2
-      c. Calidad de la FacturaciÛn 3-2
+      b. Usuarios Reconectados Despu√©s de una Interrupci√≥n 3-2
+      c. Calidad de la Facturaci√≥n 3-2
       d. Tratamiento de Reclamos 3-4
-      e. ReconexiÛn de Suministro 3-5
+      e. Reconexi√≥n de Suministro 3-5
       f. Respuesta a las Consultas de los Usuarios 3-6
    3.2 Niveles de Calidad Comercial Garantizados a Cada Usuario 3-6
-      a. Conexiones del Servicio ElÈctrico y del Medidor (COSE) 3-6
-      b. ReposiciÛn del Suministro DespuÈs de un reclamo por una InterrupciÛn Individual (USRE) 3-7
-      c. Estimaciones en la FacturaciÛn (CFFE) 3-7
-      d. ResoluciÛn de Reclamos Comerciales (TRRC) 3-7
+      a. Conexiones del Servicio El√©ctrico y del Medidor (COSE) 3-6
+      b. Reposici√≥n del Suministro Despu√©s de un reclamo por una Interrupci√≥n Individual (USRE) 3-7
+      c. Estimaciones en la Facturaci√≥n (CFFE) 3-7
+      d. Resoluci√≥n de Reclamos Comerciales (TRRC) 3-7
       e. Restablecimiento del Servicio Suspendido por Falta de Pago (RCSU) 3-8
       f. Plazo de Respuesta a las Consultas de los Usuarios (RCUS) 3-8
-      g. InformaciÛn a los Usuarios Finales Acerca de las Interrupciones Programadas (INPR) 3-8
-      h. Reclamos por Inconvenientes con el Nivel de TensiÛn Suministrado (RETE) 3-8
+      g. Informaci√≥n a los Usuarios Finales Acerca de las Interrupciones Programadas (INPR) 3-8
+      h. Reclamos por Inconvenientes con el Nivel de Tensi√≥n Suministrado (RETE) 3-8
       i. Reclamos por Inconvenientes en el Funcionamiento del Medidor (REME) 3-8
    3.3 Incumplimientos por Causales de Fuerza Mayor, caso Fortuito o no Imputables al Accionar de la Distribuidora 3-8
-   3.4 Sistema Inform·tico - Modificaciones Posteriores 3-9
-   3.5 ContabilizaciÛn de PerÌodos de mediciÛn 3-9
+   3.4 Sistema Inform√°tico - Modificaciones Posteriores 3-9
+   3.5 Contabilizaci√≥n de Per√≠odos de medici√≥n 3-9
 
-4. INFORMACI”N A REMITIR POR LA DISTRIBUIDORA 4-1
+4. INFORMACI√ìN A REMITIR POR LA DISTRIBUIDORA 4-1
    4.1 Periodicidad 4-1
-   4.2 InformaciÛn con Periodicidad Mensual 4-1
+   4.2 Informaci√≥n con Periodicidad Mensual 4-1
    4.3 Informe de la Calidad de Servicio y Suministro 4-3
-   4.4 InformaciÛn con Periodicidad Anual 4-3
-   4.5 Formato y Medio de RemisiÛn 4-3
+   4.4 Informaci√≥n con Periodicidad Anual 4-3
+   4.5 Formato y Medio de Remisi√≥n 4-3
 
-5. DESCRIPCI”N DE LAS TABLAS A REMITIR POR LA DISTRIBUIDORA 5-1
+5. DESCRIPCI√ìN DE LAS TABLAS A REMITIR POR LA DISTRIBUIDORA 5-1
 
-6. ANEXO 1: Excepciones a la clasificaciÛn por densidad demogr·fica 6-1
-
----
-
-1. INTRODUCCI”N
-
-El control de la Calidad del Servicio Comercial se realizar· de acuerdo a lo establecido en las Normas de Calidad de Servicio de los Sistemas de DistribuciÛn, a travÈs de informaciÛn extraÌda directamente de la base de datos de los sistemas de gestiÛn comercial de la Distribuidora.
+6. ANEXO 1: Excepciones a la clasificaci√≥n por densidad demogr√°fica 6-1
 
 ---
 
-2. SISTEMA DE INFORMACI”N EN BASES DE DATOS
+1. INTRODUCCI√ìN
+
+El control de la Calidad del Servicio Comercial se realizar√° de acuerdo a lo establecido en las Normas de Calidad de Servicio de los Sistemas de Distribuci√≥n, a trav√©s de informaci√≥n extra√≠da directamente de la base de datos de los sistemas de gesti√≥n comercial de la Distribuidora.
+
+---
+
+2. SISTEMA DE INFORMACI√ìN EN BASES DE DATOS
 
 2.1 Generalidades
 
-Para poder determinar la calidad del servicio comercial, las Distribuidoras deber·n contar con un sistema inform·tico auditable para el registro de sus transacciones de gestiÛn comercial y procedimientos confiables y homogÈneos para la captura y recopilaciÛn de la informaciÛn.
+Para poder determinar la calidad del servicio comercial, las Distribuidoras deber√°n contar con un sistema inform√°tico auditable para el registro de sus transacciones de gesti√≥n comercial y procedimientos confiables y homog√©neos para la captura y recopilaci√≥n de la informaci√≥n.
 
-El sistema referido deber· incluir informaciÛn que permita individualizar e identificar plenamente al usuario, el tipo de servicio contratado, la identificaciÛn de los medidores instalados para registrar sus consumos y su correspondiente estructura tarifaria.
+El sistema referido deber√° incluir informaci√≥n que permita individualizar e identificar plenamente al usuario, el tipo de servicio contratado, la identificaci√≥n de los medidores instalados para registrar sus consumos y su correspondiente estructura tarifaria.
 
-El mismo deber· contar, adem·s, con la informaciÛn mÌnima imprescindible para el seguimiento de la tramitaciÛn de las solicitudes de servicio y reclamos presentados por los usuarios incluyendo la numeraciÛn sucesiva, correlativa y autom·tica de los tr·mites que se ingresan. Del mismo modo deber· contener informaciÛn suficiente para el control del proceso de facturaciÛn. La SIGET proceder· a su vez, a recopilar informaciÛn relativa a la calidad comercial que provengan de reclamos y denuncias recibidas en la SIGET y toda otra informaciÛn que considere conveniente, la cual ser· trasladada a la distribuidora responsable para su control y resoluciÛn.
+El mismo deber√° contar, adem√°s, con la informaci√≥n m√≠nima imprescindible para el seguimiento de la tramitaci√≥n de las solicitudes de servicio y reclamos presentados por los usuarios incluyendo la numeraci√≥n sucesiva, correlativa y autom√°tica de los tr√°mites que se ingresan. Del mismo modo deber√° contener informaci√≥n suficiente para el control del proceso de facturaci√≥n. La SIGET proceder√° a su vez, a recopilar informaci√≥n relativa a la calidad comercial que provengan de reclamos y denuncias recibidas en la SIGET y toda otra informaci√≥n que considere conveniente, la cual ser√° trasladada a la distribuidora responsable para su control y resoluci√≥n.
 
-El control de la informaciÛn b·sica se realizar· comparando los datos proporcionados por la Distribuidora y con la informaciÛn adicional definida precedentemente.
+El control de la informaci√≥n b√°sica se realizar√° comparando los datos proporcionados por la Distribuidora y con la informaci√≥n adicional definida precedentemente.
 
-La SIGET realizar· auditorÌas aleatorias en los centros de procesamiento de informaciÛn y locales de atenciÛn a los usuarios y podr· requerir informaciÛn para su control o accediendo como usuario a los sistemas inform·ticos. La SIGET validar· los Ìndices de calidad a partir de la informaciÛn b·sica proporcionada por la Distribuidora.
+La SIGET realizar√° auditor√≠as aleatorias en los centros de procesamiento de informaci√≥n y locales de atenci√≥n a los usuarios y podr√° requerir informaci√≥n para su control o accediendo como usuario a los sistemas inform√°ticos. La SIGET validar√° los √≠ndices de calidad a partir de la informaci√≥n b√°sica proporcionada por la Distribuidora.
 
-2.2 Criterios de ExtracciÛn de Datos
+2.2 Criterios de Extracci√≥n de Datos
 
-La Distribuidora deber· contar con un programa inform·tico con atributos de confiabilidad, seguridad y auditabilidad, para la extracciÛn directa y autom·tica de los datos de su sistema de gestiÛn el cual deber· consolidar la informaciÛn a ser entregada a la SIGET.
+La Distribuidora deber√° contar con un programa inform√°tico con atributos de confiabilidad, seguridad y auditabilidad, para la extracci√≥n directa y autom√°tica de los datos de su sistema de gesti√≥n el cual deber√° consolidar la informaci√≥n a ser entregada a la SIGET.
 
 2.2.1 Datos Comerciales de los Usuarios
 
-Se informar· la totalidad de los usuarios activos durante el primer mes del perÌodo de control al momento de extracciÛn de la informaciÛn con la totalidad de los datos requeridos con que se cuente en la base de datos del sistema.
+Se informar√° la totalidad de los usuarios activos durante el primer mes del per√≠odo de control al momento de extracci√≥n de la informaci√≥n con la totalidad de los datos requeridos con que se cuente en la base de datos del sistema.
 
-2.2.2 Solicitudes de ConexiÛn de Servicio
+2.2.2 Solicitudes de Conexi√≥n de Servicio
 
-Se informar· la totalidad de solicitudes de conexiÛn de servicio:
+Se informar√° la totalidad de solicitudes de conexi√≥n de servicio:
 
-- Ingresadas en el mes en cuestiÛn, pero que no fueron concretadas en el mismo.
-- Concretadas en el mes, pero que fueron solicitadas en alg˙n perÌodo previo.
+- Ingresadas en el mes en cuesti√≥n, pero que no fueron concretadas en el mismo.
+- Concretadas en el mes, pero que fueron solicitadas en alg√∫n per√≠odo previo.
 - Ingresadas en el mes, y que fueron concretadas en el mismo mes.
 
-2.2.3 ReposiciÛn de Suministro DespuÈs de un Reclamo por una InterrupciÛn
+2.2.3 Reposici√≥n de Suministro Despu√©s de un Reclamo por una Interrupci√≥n
 
-Se informar· la totalidad de los reclamos por interrupciones ocurridas en el mes y las duraciones correspondientes a cada reposiciÛn.
+Se informar√° la totalidad de los reclamos por interrupciones ocurridas en el mes y las duraciones correspondientes a cada reposici√≥n.
 
 2.2.4 Rehabilitaciones de Suministro Suspendidos por Falta de Pago
 
-Se informar· la totalidad de:
+Se informar√° la totalidad de:
 
 - Suspensiones de suministro realizadas en el mes por falta de pago pero cuya rehabilitaciones no se produjo en el mismo mes.
-- Rehabilitaciones de suministro realizadas en el mes, pero cuya suspensiÛn por falta de pago se produjo en alg˙n perÌodo previo.
+- Rehabilitaciones de suministro realizadas en el mes, pero cuya suspensi√≥n por falta de pago se produjo en alg√∫n per√≠odo previo.
 - Suspensiones de servicio realizadas en el mes por falta de pago y cuya rehabilitaciones se produjo en el mismo mes.
 
 2.2.5 Reclamos
 
-Se informar· la totalidad de reclamos por cualquier motivo:
+Se informar√° la totalidad de reclamos por cualquier motivo:
 
 - Abiertos en el mes, pero no resueltos en el mismo.
-- Resueltos en el mes, que fueron abiertos en un perÌodo previo.
+- Resueltos en el mes, que fueron abiertos en un per√≠odo previo.
 - Abiertos y resueltos en el mismo mes.
 
-2.2.6 FacturaciÛn Estimada
+2.2.6 Facturaci√≥n Estimada
 
-Se informar· la totalidad de facturas estimadas en el mes, cualquiera sea el motivo.
+Se informar√° la totalidad de facturas estimadas en el mes, cualquiera sea el motivo.
 
-2.2.7 PrecisiÛn del Medidor de Consumo de EnergÌa ElÈctrica
+2.2.7 Precisi√≥n del Medidor de Consumo de Energ√≠a El√©ctrica
 
-Todo medidor de energÌa que no cumpla con las exigencias del porcentaje de error establecido, deber· ser sustituido por otro que se encuentre dentro de las tolerancias en las normas establecidas por SIGET o en su defecto deber· ser recalibrado para que cumpla dichas tolerancias. Se le deber· notificar al Usuario de cualquier cambio.
+Todo medidor de energ√≠a que no cumpla con las exigencias del porcentaje de error establecido, deber√° ser sustituido por otro que se encuentre dentro de las tolerancias en las normas establecidas por SIGET o en su defecto deber√° ser recalibrado para que cumpla dichas tolerancias. Se le deber√° notificar al Usuario de cualquier cambio.
 
-2.3 ClasificaciÛn de los Usuarios de Acuerdo a Densidad Demogr·fica
+2.3 Clasificaci√≥n de los Usuarios de Acuerdo a Densidad Demogr√°fica
 
-En las Normas de Calidad de Servicio de los Sistemas de DistribuciÛn referente a la Calidad de Servicio Comercial, un ¡rea Geogr·fica ser· considerada como de:
+En las Normas de Calidad de Servicio de los Sistemas de Distribuci√≥n referente a la Calidad de Servicio Comercial, un √Årea Geogr√°fica ser√° considerada como de:
 
-- Densidad Demogr·fica Alta: m·s de 5,000 habitantes/km≤
-- Densidad Demogr·fica Media: de 1,001 a 5,000 habitantes/km≤
-- Densidad Demogr·fica Baja: de1 a 1000 habitantes/km≤
+- Densidad Demogr√°fica Alta: m√°s de 5,000 habitantes/km¬≤
+- Densidad Demogr√°fica Media: de 1,001 a 5,000 habitantes/km¬≤
+- Densidad Demogr√°fica Baja: de1 a 1000 habitantes/km¬≤
 
-Con la excepciÛn de la clasificaciÛn de los municipios especificados en el Anexo 1.
+Con la excepci√≥n de la clasificaci√≥n de los municipios especificados en el Anexo 1.
 
 ---
 
-3. CRITERIOS PARA LA DETERMINACI”N DE LOS INDICADORES
+3. CRITERIOS PARA LA DETERMINACI√ìN DE LOS INDICADORES
 
-De acuerdo a lo establecido en las Normas de Calidad de Servicio de los Sistemas de DistribuciÛn, se deber·n determinar los Niveles Globales de Calidad Comercial (indicadores globales) y los Niveles de Calidad Comercial Garantizados a Cada Cliente (indicadores individuales), con la informaciÛn necesaria contenida en el sistema de gestiÛn comercial de cada distribuidor.
+De acuerdo a lo establecido en las Normas de Calidad de Servicio de los Sistemas de Distribuci√≥n, se deber√°n determinar los Niveles Globales de Calidad Comercial (indicadores globales) y los Niveles de Calidad Comercial Garantizados a Cada Cliente (indicadores individuales), con la informaci√≥n necesaria contenida en el sistema de gesti√≥n comercial de cada distribuidor.
 
-Para la determinaciÛn de los
+Para la determinaci√≥n de los
 
- Indicadores Globales e Individuales se indican a continuaciÛn los criterios que se deber·n seguir:
+ Indicadores Globales e Individuales se indican a continuaci√≥n los criterios que se deber√°n seguir:
 
 3.1 NIVELES GLOBALES DE CALIDAD DEL SERVICIO COMERCIAL
 
 A. Conexiones de Servicio
 
-Para este indicador se toma el porcentaje de conexiones de servicios a los usuarios que no requieran de ampliaciÛn o modificaciÛn de la red de distribuciÛn que, como mÌnimo, deben realizarse dentro de los plazos m·ximos garantizados a cada usuario.
+Para este indicador se toma el porcentaje de conexiones de servicios a los usuarios que no requieran de ampliaci√≥n o modificaci√≥n de la red de distribuci√≥n que, como m√≠nimo, deben realizarse dentro de los plazos m√°ximos garantizados a cada usuario.
 
-Los lÌmites admisibles ser·n aquellos que surjan de acuerdo al ·rea geogr·fica (Densidad Demogr·fica Alta, Media y Baja) en donde se ubique al usuario.
+Los l√≠mites admisibles ser√°n aquellos que surjan de acuerdo al √°rea geogr√°fica (Densidad Demogr√°fica Alta, Media y Baja) en donde se ubique al usuario.
 
-Se deber· calcular el tiempo empleado para efectivizar la conexiÛn del servicio considerado desde la fecha de pago del derecho de conexiÛn.
+Se deber√° calcular el tiempo empleado para efectivizar la conexi√≥n del servicio considerado desde la fecha de pago del derecho de conexi√≥n.
 
-La ecuaciÛn a considerar para calcular este indicador es la siguiente:
+La ecuaci√≥n a considerar para calcular este indicador es la siguiente:
 
 \[ COSE_i = \left( \frac{\sum_{i} CS}{\sum_{i} CA} \right) \times 100 \]
 
-DÛnde:
-- \( i \): Densidad Demogr·fica (Alta, Media y Baja Densidad)
-- \( CS \): Total de Conexiones que se realizaron en el perÌodo analizado, que no requieren modificaciÛn de Red, y que se hayan ejecutado dentro de los plazos m·ximos garantizados a cada usuario dependiendo de la densidad demogr·fica a la que pertenece
-- \( CA \): Total de Conexiones que se realizaron en el perÌodo analizado, que no requieren modificaciÛn de Red, dependiendo de la densidad demogr·fica a la que pertenece el Usuario.
+D√≥nde:
+- \( i \): Densidad Demogr√°fica (Alta, Media y Baja Densidad)
+- \( CS \): Total de Conexiones que se realizaron en el per√≠odo analizado, que no requieren modificaci√≥n de Red, y que se hayan ejecutado dentro de los plazos m√°ximos garantizados a cada usuario dependiendo de la densidad demogr√°fica a la que pertenece
+- \( CA \): Total de Conexiones que se realizaron en el per√≠odo analizado, que no requieren modificaci√≥n de Red, dependiendo de la densidad demogr√°fica a la que pertenece el Usuario.
 
-B. Usuarios Reconectados DespuÈs de una InterrupciÛn
+B. Usuarios Reconectados Despu√©s de una Interrupci√≥n
 
-Para este indicador se considera el porcentaje de usuarios que, como mÌnimo, deben ser reconectados por la distribuidora, dentro de los plazos m·ximos garantizados a cada usuario, en caso de reclamos por falta de energÌa reportados en la tabla RECLAMOS_FE.
+Para este indicador se considera el porcentaje de usuarios que, como m√≠nimo, deben ser reconectados por la distribuidora, dentro de los plazos m√°ximos garantizados a cada usuario, en caso de reclamos por falta de energ√≠a reportados en la tabla RECLAMOS_FE.
 
-Los lÌmites admisibles ser·n aquellos que surjan de acuerdo al ·rea geogr·fica (Densidad Demogr·fica Alta, Media y Baja) en donde se ubique al usuario.
+Los l√≠mites admisibles ser√°n aquellos que surjan de acuerdo al √°rea geogr√°fica (Densidad Demogr√°fica Alta, Media y Baja) en donde se ubique al usuario.
 
-La ecuaciÛn a considerar para calcular este indicador es la siguiente:
+La ecuaci√≥n a considerar para calcular este indicador es la siguiente:
 
 \[ USRE_i = \left( \frac{\sum_{i} Up}{\sum_{i} Ut} \right) \times 100 \]
 
-DÛnde:
-- \( i \): Densidad Demogr·fica (Alta, Media y Baja Densidad)
-- \( Up \): Total de Usuarios que reclamaron por una interrupciÛn en el perÌodo analizado y fueron reconectados dentro de los plazos m·ximos establecidos para cada usuario dependiendo de la densidad demogr·fica a la que pertenece
-- \( Ut \): Total de Usuarios que reclamaron por una interrupciÛn en el perÌodo analizado, dependiendo de la densidad demogr·fica a la que pertenece.
+D√≥nde:
+- \( i \): Densidad Demogr√°fica (Alta, Media y Baja Densidad)
+- \( Up \): Total de Usuarios que reclamaron por una interrupci√≥n en el per√≠odo analizado y fueron reconectados dentro de los plazos m√°ximos establecidos para cada usuario dependiendo de la densidad demogr√°fica a la que pertenece
+- \( Ut \): Total de Usuarios que reclamaron por una interrupci√≥n en el per√≠odo analizado, dependiendo de la densidad demogr√°fica a la que pertenece.
 
-C. Calidad de la FacturaciÛn
+C. Calidad de la Facturaci√≥n
 
-La calidad de la facturaciÛn a los usuarios, se eval˙a conforme a los siguientes Ìndices:
+La calidad de la facturaci√≥n a los usuarios, se eval√∫a conforme a los siguientes √≠ndices:
 
-- Porcentaje de Errores en la FacturaciÛn (IPE)
+- Porcentaje de Errores en la Facturaci√≥n (IPE)
 
-Para el c·lculo de este indicador se considera el porcentaje m·ximo de rectificaciones de facturas emitidas, ser· de forma mensual sin discriminar por tarifa y de resultado anual. Este valor calculado se le compara con el LÌmite Admisible establecido. Al finalizar el aÒo se acumulan los excedentes para determinar las compensaciones resultantes.
+Para el c√°lculo de este indicador se considera el porcentaje m√°ximo de rectificaciones de facturas emitidas, ser√° de forma mensual sin discriminar por tarifa y de resultado anual. Este valor calculado se le compara con el L√≠mite Admisible establecido. Al finalizar el a√±o se acumulan los excedentes para determinar las compensaciones resultantes.
 
-Se deber·n considerar para el c·lculo del indicador la totalidad de los reclamos o quejas de clientes recibidas por la Distribuidora que resulten procedentes y se encuentren informados en la tabla FACTURACION_ERRONEA.
+Se deber√°n considerar para el c√°lculo del indicador la totalidad de los reclamos o quejas de clientes recibidas por la Distribuidora que resulten procedentes y se encuentren informados en la tabla FACTURACION_ERRONEA.
 
-A tal fin la tabla de cÛdigos de motivos de reclamos que presente la Distribuidora deber· contener una clasificaciÛn que permita identificar r·pidamente cada reclamo.
+A tal fin la tabla de c√≥digos de motivos de reclamos que presente la Distribuidora deber√° contener una clasificaci√≥n que permita identificar r√°pidamente cada reclamo.
 
-La ecuaciÛn a considerar para calcular este indicador es la siguiente:
+La ecuaci√≥n a considerar para calcular este indicador es la siguiente:
 
 \[ IPE_j = \left( \frac{\sum_{j} FA}{\sum_{j} NE} \right) \times 100 \]
 
-DÛnde:
-- \( j \): Variando de 1 al ˙ltimo mes del perÌodo
-- \( FA \): Total de Facturas ajustadas en el mes analizado (sin discriminaciÛn de tarifa ni densidad)
-- \( NE \): Total de Facturas emitidas en el mes analizado (sin discriminaciÛn de tarifa ni de densidad)
+D√≥nde:
+- \( j \): Variando de 1 al √∫ltimo mes del per√≠odo
+- \( FA \): Total de Facturas ajustadas en el mes analizado (sin discriminaci√≥n de tarifa ni densidad)
+- \( NE \): Total de Facturas emitidas en el mes analizado (sin discriminaci√≥n de tarifa ni de densidad)
 
-- Porcentaje de FacturaciÛn Estimada (IFE)
+- Porcentaje de Facturaci√≥n Estimada (IFE)
 
-Para el c·lculo de este indicador se considera el porcentaje m·ximo de estimaciones en las facturas emitidas.
+Para el c√°lculo de este indicador se considera el porcentaje m√°ximo de estimaciones en las facturas emitidas.
 
-Los lÌmites admisibles ser·n aquellos que surjan de acuerdo al ·rea geogr·fica (Densidad Demogr·fica Alta, Media y Baja) en donde se ubique al usuario.
+Los l√≠mites admisibles ser√°n aquellos que surjan de acuerdo al √°rea geogr√°fica (Densidad Demogr√°fica Alta, Media y Baja) en donde se ubique al usuario.
 
-La ecuaciÛn a considerar para calcular este indicador es la siguiente:
+La ecuaci√≥n a considerar para calcular este indicador es la siguiente:
 
 \[ IFE_i = \left( \frac{\sum_{i} FE}{\sum_{i} NE} \right) \times 100 \]
 
-DÛnde:
-- \( i \): Densidad Demogr·fica (Alta, Media y Baja Densidad)
-- \( FE \): Total de Facturas estimadas en el perÌodo analizado, discriminando por Densidad Demogr·fica
-- \( NE \): Total de Facturas emitidas en el perÌodo analizado discriminando por Densidad Demogr·fica
+D√≥nde:
+- \( i \): Densidad Demogr√°fica (Alta, Media y Baja Densidad)
+- \( FE \): Total de Facturas estimadas en el per√≠odo analizado, discriminando por Densidad Demogr√°fica
+- \( NE \): Total de Facturas emitidas en el per√≠odo analizado discriminando por Densidad Demogr√°fica
 
 D. Tratamiento de Reclamos
 
-La mediciÛn de desempeÒo de la distribuidora en lo que respecta al tratamiento de los reclamos de los usuarios y sus quejas en general se verifica de acuerdo a los siguientes par·metros:
+La medici√≥n de desempe√±o de la distribuidora en lo que respecta al tratamiento de los reclamos de los usuarios y sus quejas en general se verifica de acuerdo a los siguientes par√°metros:
 
 - Porcentaje de Reclamos (PRU)
 
-Se deber·n considerar para el c·lculo del indicador la totalidad de los reclamos o quejas de clientes procedentes recibidas por la Distribuidora, informados en la tabla RECLAMOS, de acuerdo al lÌmite admisible seg˙n su origen (por interrupciones de servicio, por variaciones en los niveles de tensiÛn y por problemas comerciales).
+Se deber√°n considerar para el c√°lculo del indicador la totalidad de los reclamos o quejas de clientes procedentes recibidas por la Distribuidora, informados en la tabla RECLAMOS, de acuerdo al l√≠mite admisible seg√∫n su origen (por interrupciones de servicio, por variaciones en los niveles de tensi√≥n y por problemas comerciales).
 
-La ecuaciÛn a considerar para calcular este indicador es la siguiente:
+La ecuaci√≥n a considerar para calcular este indicador es la siguiente:
 
 \[ PRUn = \left( \frac{Ran}{Nu} \right) \times 100\% \]
 
-DÛnde:
-- \( Ran \): N˙mero total de reclamos procedentes recibidas
-- \( Nu \): N˙mero total de usuarios servidos en el aÒo (todos los usuarios que estuvieron alguna vez de alta en el perÌodo)
-- \( N \): Puede ser igual a \( i \), \( t \) o \( c \), de acuerdo a la correspondencia con los reclamos por interrupciones, por variaciones en los niveles de tensiÛn o por problemas comerciales, respectivamente.
-- \( PRUi \): Porcentaje de Reclamos por interrupciones de servicio en el aÒo
-- \( PRUt \): Porcentaje de Reclamos por variaciones en los niveles de TensiÛn en el aÒo
-- \( PRUc \): Porcentaje de Reclamos por problemas comerciales en el aÒo
+D√≥nde:
+- \( Ran \): N√∫mero total de reclamos procedentes recibidas
+- \( Nu \): N√∫mero total de usuarios servidos en el a√±o (todos los usuarios que estuvieron alguna vez de alta en el per√≠odo)
+- \( N \): Puede ser igual a \( i \), \( t \) o \( c \), de acuerdo a la correspondencia con los reclamos por interrupciones, por variaciones en los niveles de tensi√≥n o por problemas comerciales, respectivamente.
+- \( PRUi \): Porcentaje de Reclamos por interrupciones de servicio en el a√±o
+- \( PRUt \): Porcentaje de Reclamos por variaciones en los niveles de Tensi√≥n en el a√±o
+- \( PRUc \): Porcentaje de Reclamos por problemas comerciales en el a√±o
 
 - Tiempo promedio de Procesamiento (TPA)
 
-Se deber· considerar para el c·lculo del indicador el tiempo en dÌas h·biles para resolver el reclamo, considerando solamente los reclamos procedentes resueltos.
+Se deber√° considerar para el c√°lculo del indicador el tiempo en d√≠as h√°biles para resolver el reclamo, considerando solamente los reclamos procedentes resueltos.
 
-La ecuaciÛn a considerar para calcular este indicador es la siguiente:
+La ecuaci√≥n a considerar para calcular este indicador es la siguiente:
 
 \[ TPA = \left( \frac{\sum{TA}}{\sum{RA}} \right) \times 10 \]
 
-DÛnde:
-- \( \sum{TA} \): Total de dÌas h·biles para resolver cada Reclamo o queja en el perÌodo analizado
-- \( \sum{RA} \): N˙mero total de Reclamos resueltos en el perÌodo analizado
+D√≥nde:
+- \( \sum{TA} \): Total de d√≠as h√°biles para resolver cada Reclamo o queja en el per√≠odo analizado
+- \( \sum{RA} \): N√∫mero total de Reclamos resueltos en el per√≠odo analizado
 
-- Porcentaje de ResoluciÛn (PRA)
+- Porcentaje de Resoluci√≥n (PRA)
 
-Se deber· considerar para el c·lculo de este indicador el n˙mero total de reclamos o quejas procedentes.
+Se deber√° considerar para el c√°lculo de este indicador el n√∫mero total de reclamos o quejas procedentes.
 
-La ecuaciÛn a considerar para calcular este indicador es la siguiente:
+La ecuaci√≥n a considerar para calcular este indicador es la siguiente:
 
 \[ PRA = \left( \frac{\sum{RRa}}{\sum{NR}} \right) \times 100 \]
 
-DÛnde:
-- \( \sum{RRa} \): N˙mero total de Reclamos procedentes resueltos en el perÌodo analizado
-- \( \sum{NR} \): N˙mero total de Reclamos procedentes recibidos hayan sido resueltos o no en el perÌodo analizado
+D√≥nde:
+- \( \sum{RRa} \): N√∫mero total de Reclamos procedentes resueltos en el per√≠odo analizado
+- \( \sum{NR} \): N√∫mero total de Reclamos procedentes recibidos hayan sido resueltos o no en el per√≠odo analizado
 
-E. ReconexiÛn de Suministro
+E. Reconexi√≥n de Suministro
 
-Se considerar· el porcentaje de reconexiones de suministro suspendidas por falta de pago que deban ser realizadas por la Distribuidora dentro de los plazos garantizados a cada usuario.
+Se considerar√° el porcentaje de reconexiones de suministro suspendidas por falta de pago que deban ser realizadas por la Distribuidora dentro de los plazos garantizados a cada usuario.
 
-Los lÌmites admisibles ser·n aquellos que surjan de acuerdo al ·rea geogr·fica (Densidad Demogr·fica Alta, Media y Baja) en donde se ubique al usuario.
+Los l√≠mites admisibles ser√°n aquellos que surjan de acuerdo al √°rea geogr√°fica (Densidad Demogr√°fica Alta, Media y Baja) en donde se ubique al usuario.
 
-La ecuaciÛn a considerar para calcular este indicador es la siguiente:
+La ecuaci√≥n a considerar para calcular este indicador es la siguiente:
 
 \[ RCSU = \left( \frac{\sum{iRLa}}{\sum{iRLe}} \right) \times 100 \]
 
-DÛnde:
-- \( i \): Densidad Demogr·fica (Alta, Media y Baja Densidad)
-- \( \sum{iRLa} \): Reconexiones que se realizaron en el perÌodo analizado dentro de los plazos establecidos para cada usuario dependiendo de la densidad demogr·fica a la que pertenece
-- \( \sum{iRLe} \): Total de reconexiones que se realizaron en el perÌodo analizado, dependiendo de la densidad demogr·fica a la que pertenece
+D√≥nde:
+- \( i \): Densidad Demogr√°fica (Alta, Media y Baja Densidad)
+- \( \sum{iRLa} \): Reconexiones que se realizaron en el per√≠odo analizado dentro de los plazos establecidos para cada usuario dependiendo de la densidad demogr√°fica a la que pertenece
+- \( \sum{iRLe} \): Total de reconexiones que se realizaron en el per√≠odo analizado, dependiendo de la densidad demogr√°fica a la que pertenece
 
 F. Respuesta a las Consultas de los Usuarios
 
-El porcentaje de consultas de usuarios que como mÌnimo deben ser respondidas por escrito por la Distribuidora dentro del plazo indicado.
+El porcentaje de consultas de usuarios que como m√≠nimo deben ser respondidas por escrito por la Distribuidora dentro del plazo indicado.
 
-La ecuaciÛn a considerar para calcular este indicador es la siguiente:
+La ecuaci√≥n a considerar para calcular este indicador es la siguiente:
 
 \[ RCUS = \left( \frac{\sum{RCp}}{\sum{RCt}} \right) \times 100 \]
 
-DÛnde:
-- \( \sum{RCp} \): Total de respuestas a consultas que se realizaron en el perÌodo analizado dentro de los plazos m·ximos para cada usuario
-- \( \sum{RCt} \): Total de consultas que se realizaron en el perÌodo analizado
+D√≥nde:
+- \( \sum{RCp} \): Total de respuestas a consultas que se realizaron en el per√≠odo analizado dentro de los plazos m√°ximos para cada usuario
+- \( \sum{RCt} \): Total de consultas que se realizaron en el per√≠odo analizado
 
 ---
 
-4. INFORMACI”N A REMITIR POR LA DISTRIBUIDORA
+4. INFORMACI√ìN A REMITIR POR LA DISTRIBUIDORA
 
 4.1 Periodicidad
 
-Con el objeto de verificar el debido cumplimiento de las obligaciones de la empresa Distribuidora y llevar el seguimiento y control por parte de la SIGET, la Distribuidora deber· remitir la informaciÛn organizada en tablas (bases de datos), con los formatos que se encuentran detalladas en los anexos de esta MetodologÌa.
+Con el objeto de verificar el debido cumplimiento de las obligaciones de la empresa Distribuidora y llevar el seguimiento y control por parte de la SIGET, la Distribuidora deber√° remitir la informaci√≥n organizada en tablas (bases de datos), con los formatos que se encuentran detalladas en los anexos de esta Metodolog√≠a.
 
-Las empresas distribuidoras deber·n remitir a la SIGET la informaciÛn en forma mensual, semestral y anual, de acuerdo al detalle siguiente:
+Las empresas distribuidoras deber√°n remitir a la SIGET la informaci√≥n en forma mensual, semestral y anual, de acuerdo al detalle siguiente:
 
-- La InformaciÛn Mensual deber· ser remitida a m·s tardar dentro de los 15 dÌas h·biles siguientes al final de cada mes, conjuntamente con la tabla DATOS_USUARIOS.
-- La tabla DATOS_USUARIOS se enviar· completa con todos los usuarios que estuvieron activos durante el primer mes del perÌodo de control, conjuntamente con las correspondientes tablas mensuales.
-- La InformaciÛn Semestral deber· ser remitida los primeros 15 dÌas h·biles del mes siguiente al de finalizaciÛn del perÌodo en estudio.
-- La tabla SALIDA_GLOBAL con los resultados anuales, deber· ser remitida conjuntamente con la informaciÛn mensual del ˙ltimo mes del periodo de control analizado.
+- La Informaci√≥n Mensual deber√° ser remitida a m√°s tardar dentro de los 15 d√≠as h√°biles siguientes al final de cada mes, conjuntamente con la tabla DATOS_USUARIOS.
+- La tabla DATOS_USUARIOS se enviar√° completa con todos los usuarios que estuvieron activos durante el primer mes del per√≠odo de control, conjuntamente con las correspondientes tablas mensuales.
+- La Informaci√≥n Semestral deber√° ser remitida los primeros 15 d√≠as h√°biles del mes siguiente al de finalizaci√≥n del per√≠odo en estudio.
+- La tabla SALIDA_GLOBAL con los resultados anuales, deber√° ser remitida conjuntamente con la informaci√≥n mensual del √∫ltimo mes del periodo de control analizado.
 
-4.2 InformaciÛn con Periodicidad Mensual
+4.2 Informaci√≥n con Periodicidad Mensual
 
-En los plazos establecidos en la secciÛn 4.1, la Distribuidora deber· remitir a la SIGET las siguientes tablas referidas a lo ocurrido el mes calendario anterior. En el CapÌtulo 5 se presentan los Formatos de cada una de las Tablas a presentar.
+En los plazos establecidos en la secci√≥n 4.1, la Distribuidora deber√° remitir a la SIGET las siguientes tablas referidas a lo ocurrido el mes calendario anterior. En el Cap√≠tulo 5 se presentan los Formatos de cada una de las Tablas a presentar.
 
-| NOMBRETABLA            | PERIODO | DESCRIPCI”N                                                                                  |
+| NOMBRETABLA            | PERIODO | DESCRIPCI√ìN                                                                                  |
 |------------------------|---------|---------------------------------------------------------------------------------------------|
-| NUEVOS_SERVICIOS       | Mensual | Tabla de solicitudes de conexiÛn de servicio o aumento de potencia.                          |
+| NUEVOS_SERVICIOS       | Mensual | Tabla de solicitudes de conexi√≥n de servicio o aumento de potencia.                          |
 | RECONEXIONES           | Mensual | Tabla de rehabilitaciones de servicio.                                                      |
 | RECLAMOS               | Mensual | Tabla de reclamos.                                                                          |
-| RECLAMOS_INCONVENIENTES| Mensual | Tabla de Reclamos por Inconvenientes con el Nivel de TensiÛn o Funcionamiento del Medidor   |
-| RECLAMOS_FE            | Mensual | Tabla de Reclamos por falta de energÌa                                                      |
+| RECLAMOS_INCONVENIENTES| Mensual | Tabla de Reclamos por Inconvenientes con el Nivel de Tensi√≥n o Funcionamiento del Medidor   |
+| RECLAMOS_FE            | Mensual | Tabla de Reclamos por falta de energ√≠a                                                      |
 | FUERZA_MAYOR           | Mensual | Tabla de casos con causal Fuerza Mayor                                                      |
 | POTENCIAS              | Mensual | Tabla de Potencias                                                                          |
 | SALIDA_INDIVIDUAL      | Mensual | Tabla de indicadores y compensaciones por usuario.                                          |
-| FACTURACION            | Mensual | EnergÌa y Monto facturado mensual de cada usuario.                                          |
-| FACTURACION_ERRONEA    | Mensual | Tabla de facturaciÛn errÛnea.                                                               |
-| FACTURACION_ESTIMADA   | Mensual | Tabla de facturaciÛn estimada.                                                              |
-| INTERR_PROGRAMADAS     | Mensual | Tabla de notificaciÛn de interrupciones programadas.                                        |
+| FACTURACION            | Mensual | Energ√≠a y Monto facturado mensual de cada usuario.                                          |
+| FACTURACION_ERRONEA    | Mensual | Tabla de facturaci√≥n err√≥nea.                                                               |
+| FACTURACION_ESTIMADA   | Mensual | Tabla de facturaci√≥n estimada.                                                              |
+| INTERR_PROGRAMADAS     | Mensual | Tabla de notificaci√≥n de interrupciones programadas.                                        |
 | INTERRUPCIONES         | Mensual | Tabla de Interrupciones.                                                                    |
 | REP_USUARIOS           | Mensual | Tabla de interrupciones por usuario                                                         |
 | CONSULTA_USUARIOS      | Mensual | Tabla de consulta realizadas por los usuarios a la Distribuidora.                           |
-| JUSTIFICACIONES        | Mensual | Tabla de casos de incumplimientos en los cuales se invoca causal de justificaciÛn.          |
+| JUSTIFICACIONES        | Mensual | Tabla de casos de incumplimientos en los cuales se invoca causal de justificaci√≥n.          |
 
 4.3 Informe de la Calidad de Servicio y Suministro
 
-Las empresas distribuidoras deber·n incluir un informe ejecutivo en donde se presente el resumen de la evoluciÛn de los indicadores de cada mes y los promedios correspondientes a los referidos semestres.
+Las empresas distribuidoras deber√°n incluir un informe ejecutivo en donde se presente el resumen de la evoluci√≥n de los indicadores de cada mes y los promedios correspondientes a los referidos semestres.
 
-Este informe deber· ser presentado en forma escrita y en medio magnÈtico, en las fechas establecida en la secciÛn 4.1.
+Este informe deber√° ser presentado en forma escrita y en medio magn√©tico, en las fechas establecida en la secci√≥n 4.1.
 
-4.4 InformaciÛn con Periodicidad Anual
+4.4 Informaci√≥n con Periodicidad Anual
 
-En los plazos indicados en el punto 4.1 de la presente Base MetodolÛgica, la Distribuidora deber· remitir a la SIGET la informaciÛn indicada a continuaciÛn:
+En los plazos indicados en el punto 4.1 de la presente Base Metodol√≥gica, la Distribuidora deber√° remitir a la SIGET la informaci√≥n indicada a continuaci√≥n:
 
 | NOMBRETABLA  | PERIODO            | DESCRIPCION                                                                               |
 |--------------|--------------------|------------------------------------------------------------------------------------------|
-| DATOS_USUARIOS | Anual con actualizaciÛn mensual | Tabla de usuarios conteniendo toda la informaciÛn comercial del mismo.                       |
+| DATOS_USUARIOS | Anual con actualizaci√≥n mensual | Tabla de usuarios conteniendo toda la informaci√≥n comercial del mismo.                       |
 | SALIDA_GLOBAL | Anual              | Tabla de indicadores globales                                                             |
 
-4.5 Formato y Medio de RemisiÛn
+4.5 Formato y Medio de Remisi√≥n
 
-A los fines del seguimiento y control que efectuar· la SIGET para verificar el cumplimiento de las obligaciones de la Distribuidora, la empresa deber· remitir la siguiente informaciÛn, organizada en tablas en formato ASCII de acuerdo a lo detallado en la SecciÛn 5.
+A los fines del seguimiento y control que efectuar√° la SIGET para verificar el cumplimiento de las obligaciones de la Distribuidora, la empresa deber√° remitir la siguiente informaci√≥n, organizada en tablas en formato ASCII de acuerdo a lo detallado en la Secci√≥n 5.
 
-Los campos de los registros informados en dichas tablas deber·n estar delimitados por el separador de campo PIPE (|). Asimismo como final de lÌnea se debe utilizar CrLf (ASCII 13 + ASCII 10).
+Los campos de los registros informados en dichas tablas deber√°n estar delimitados por el separador de campo PIPE (|). Asimismo como final de l√≠nea se debe utilizar CrLf (ASCII 13 + ASCII 10).
 
-Se deben informar la totalidad de los campos, aunque algunos de ellos no contengan datos, en cuyo caso quedar·n vacÌos y respetando el orden establecido en las tablas descritas.
+Se deben informar la totalidad de los campos, aunque algunos de ellos no contengan datos, en cuyo caso quedar√°n vac√≠os y respetando el orden establecido en las tablas descritas.
 
-Los formatos de fecha y hora se deber·n uniformizar de la siguiente manera:
+Los formatos de fecha y hora se deber√°n uniformizar de la siguiente manera:
 a) fecha dd/mm/aaaa Ejemplo: fecha 27/08/2005
 b) fecha + hora, dd/mm/aa hh:mm Ejemplo: fecha + hora 27/08/2005 13:08
 
-El campo decimal ser· informado con dos decimales, mientras que los campos de texto no podr·n informase con delimitadores propios, comillas dobles (ì) o simples (Ñ).
+El campo decimal ser√° informado con dos decimales, mientras que los campos de texto no podr√°n informase con delimitadores propios, comillas dobles (‚Äú) o simples (‚Äû).
 
-Las tablas deber·n remitirse a la SIGET en medio magnÈtico, nombradas de acuerdo a la codificaciÛn indicada a continuaciÛn:
+Las tablas deber√°n remitirse a la SIGET en medio magn√©tico, nombradas de acuerdo a la codificaci√≥n indicada a continuaci√≥n:
 
 1 2 3 4 5_NOMBRETABLA.xxx
 
-DÌgito 1 - IdentificaciÛn de la Distribuidora
+D√≠gito 1 - Identificaci√≥n de la Distribuidora
 
 - A - CAESS
 - B - CLESA
@@ -361,98 +361,98 @@ DÌgito 1 - IdentificaciÛn de la Distribuidora
 - D - DELSUR
 - E - EEO
 - F - EDESAL
-- G - B&D, SERVICIOS T…CNICOS
+- G - B&D, SERVICIOS T√âCNICOS
 - H - ABRUZZO
 
-DÌgito 2 - CÛdigo de identificaciÛn de la CampaÒa
+D√≠gito 2 - C√≥digo de identificaci√≥n de la Campa√±a
 
 - C: Calidad de Servicio Comercial
 
-DÌgito 3 y 4 - CÛdigo de identificaciÛn del AÒo de envÌo
+D√≠gito 3 y 4 - C√≥digo de identificaci√≥n del A√±o de env√≠o
 
-- Dos ˙ltimos DÌgitos del AÒo
+- Dos √∫ltimos D√≠gitos del A√±o
 
-DÌgito 5 - CÛdigo de identificaciÛn del Mes de EnviÛ
+D√≠gito 5 - C√≥digo de identificaci√≥n del Mes de Envi√≥
 
-- El mes de envÌo, dependiendo de la campaÒa de control y tipo de tabla. 1 al 9, y O, N, D.
+- El mes de env√≠o, dependiendo de la campa√±a de control y tipo de tabla. 1 al 9, y O, N, D.
 
-NOMBRETABLA: DenominaciÛn de las Tablas enviadas, definidas en las secciones 4.2 y 4.4 del presente documento.
+NOMBRETABLA: Denominaci√≥n de las Tablas enviadas, definidas en las secciones 4.2 y 4.4 del presente documento.
 
-En los casos que deba informarse el nombre de municipios y/o departamentos, Èstos deber·n ser expresados en letras may˙sculas, sin acentos, ni abreviaturas, ni sÌmbolos ajenos al alfabeto espaÒol, no se deber·n utilizar las palabras ìDEPARTAMENTOî o ìMUNICIPIOî, ni espacios al inicio o al final de los nombres, y para el caso de nombres compuestos por dos o m·s palabras se deber· utilizar exactamente un espacio como separador entre Èstas.
+En los casos que deba informarse el nombre de municipios y/o departamentos, √©stos deber√°n ser expresados en letras may√∫sculas, sin acentos, ni abreviaturas, ni s√≠mbolos ajenos al alfabeto espa√±ol, no se deber√°n utilizar las palabras ‚ÄúDEPARTAMENTO‚Äù o ‚ÄúMUNICIPIO‚Äù, ni espacios al inicio o al final de los nombres, y para el caso de nombres compuestos por dos o m√°s palabras se deber√° utilizar exactamente un espacio como separador entre √©stas.
 
 ---
 
-5. DESCRIPCI”N DE LAS TABLAS A REMITIR POR LA DISTRIBUIDORA
+5. DESCRIPCI√ìN DE LAS TABLAS A REMITIR POR LA DISTRIBUIDORA
 
-INFORMACI”N CON PERIODICIDAD ANUAL Y ACTUALIZACION MENSUAL
+INFORMACI√ìN CON PERIODICIDAD ANUAL Y ACTUALIZACION MENSUAL
 
 TABLA: DATOS_USUARIOS
 
-| CAMPO            | DESCRIPCI”N                                                                                   | TIPO            |
+| CAMPO            | DESCRIPCI√ìN                                                                                   | TIPO            |
 |------------------|----------------------------------------------------------------------------------------------|-----------------|
-| IDUsuario        | IdentificaciÛn ˙nica del usuario (identificador, N∫ de cuenta, etc. seg˙n corresponda)        | Texto (30)      |
+| IDUsuario        | Identificaci√≥n √∫nica del usuario (identificador, N¬∫ de cuenta, etc. seg√∫n corresponda)        | Texto (30)      |
 | Tarifa           | Tarifa correspondiente al usuario                                                            | Texto (5)       |
-| TipoRegistro     | Indica si es un registro dado de alta, de baja o si tiene modificaciÛn en alguno de sus campos (A=Alta, B=Baja, M=ModificaciÛn) | Texto (1)       |
-| TensionServicio  | TensiÛn Nominal de Servicio del Usuario                                                      | Entero          |
+| TipoRegistro     | Indica si es un registro dado de alta, de baja o si tiene modificaci√≥n en alguno de sus campos (A=Alta, B=Baja, M=Modificaci√≥n) | Texto (1)       |
+| TensionServicio  | Tensi√≥n Nominal de Servicio del Usuario                                                      | Entero          |
 | AreaGeografica   | Densidad Alta (A) / Media (M) / Baja (B)                                                     | Texto (1)       |
-| TipoServicio     | Densidad de carga alta (U) / Densidad de carga baja (R) conforme a lo establecido en el numeral 6 de la metodologÌa de control de la calidad del servicio tÈcnico | Texto (1)       |
-| TipoInstalacion  | Monof·sica (M) / Trif·sica (T)                                                               | Texto (1)       |
-| SubestaciÛn      | SubestaciÛn AT/MT o N∫ de transformador desde donde se alimenta al usuario                    | Texto (50)      |
-| Circuito         | N∫ de circuito MT desde donde se alimenta al usuario para divisiÛn red normal                 | Texto (50)      |
-| CenMTBT          | N∫ de centro MT/BT desde donde se alimenta al usuario en BT para divisiÛn red normal          | Texto (20)      |
-| IDMedidor        | IdentificaciÛn de medidor                                                                    | Texto (25)      |
-| TipoMedidor      | CÛdigo de IdentificaciÛn del tipo de medidor (nos deben enviar los tipos)                    | Texto (30)      |
-| FechaColocacion  | Fecha de colocaciÛn de medidor                                                               | Fecha           |
+| TipoServicio     | Densidad de carga alta (U) / Densidad de carga baja (R) conforme a lo establecido en el numeral 6 de la metodolog√≠a de control de la calidad del servicio t√©cnico | Texto (1)       |
+| TipoInstalacion  | Monof√°sica (M) / Trif√°sica (T)                                                               | Texto (1)       |
+| Subestaci√≥n      | Subestaci√≥n AT/MT o N¬∫ de transformador desde donde se alimenta al usuario                    | Texto (50)      |
+| Circuito         | N¬∫ de circuito MT desde donde se alimenta al usuario para divisi√≥n red normal                 | Texto (50)      |
+| CenMTBT          | N¬∫ de centro MT/BT desde donde se alimenta al usuario en BT para divisi√≥n red normal          | Texto (20)      |
+| IDMedidor        | Identificaci√≥n de medidor                                                                    | Texto (25)      |
+| TipoMedidor      | C√≥digo de Identificaci√≥n del tipo de medidor (nos deben enviar los tipos)                    | Texto (30)      |
+| FechaColocacion  | Fecha de colocaci√≥n de medidor                                                               | Fecha           |
 | Nombre           | Nombre del usuario                                                                           | Texto (50)      |
 | Calle            | Calle                                                                                        | Texto (60)      |
-| NumeroVivienda   | N˙mero                                                                                       | Texto (10)      |
+| NumeroVivienda   | N√∫mero                                                                                       | Texto (10)      |
 | Piso             | Piso                                                                                         | Texto (10)      |
 | Unidad           | Unidad/Apartamento                                                                           | Texto (5)       |
-| Telefono         | TelÈfono                                                                                     | Texto (10)      |
+| Telefono         | Tel√©fono                                                                                     | Texto (10)      |
 | Departamento     | Departamento
 
                                                                                  | Texto (50)      |
 | Municipio        | Municipio                                                                                    | Texto (50)      |
-| Colonia          | Colonia o CantÛn                                                                             | Texto (50)      |
+| Colonia          | Colonia o Cant√≥n                                                                             | Texto (50)      |
 | Potencia         | Potencia facturada                                                                           | Decimal         |
-| CoordenadaX      | CoordenadaX (Sistema Universal Transverse Mercator ñ UTM-) de la posiciÛn del Usuario        | Decimal         |
-| CoordenadaY      | CoordenadaY (Sistema Universal Transverse Mercator ñ UTM-) de la posiciÛn del Usuario        | Decimal         |
+| CoordenadaX      | CoordenadaX (Sistema Universal Transverse Mercator ‚Äì UTM-) de la posici√≥n del Usuario        | Decimal         |
+| CoordenadaY      | CoordenadaY (Sistema Universal Transverse Mercator ‚Äì UTM-) de la posici√≥n del Usuario        | Decimal         |
 
 Nota:
-- Para situaciones excepcionales, debidamente justificadas ante la SIGET y aceptadas por Èsta, cuando la empresa distribuidora no disponga de las coordenadas UTM para algunos usuarios, deber· informar las correspondientes al centro de transformaciÛn de MTBT al cual Èstos se encuentran conectados.
-- Esta tabla se enviar· completa con todos los usuarios que estuvieron activos durante el primer mes del perÌodo de control, conjuntamente con las correspondientes tablas mensuales. Debe tenerse en cuenta que en el campo ìTipoRegistroî debe figurar la letra ìAî.
-- En los meses siguientes, sÛlo deben enviarse aquellos registros de usuarios que hayan estado de ALTA, de BAJA o que hayan sufrido modificaciÛn en el mes informado.
-- Todos los usuarios dados de baja en el mes ìNî se deber·n informar con los datos correspondientes al mes ìN+1î colocando los datos que figuran en la tabla ìDATOS_USUARIOSî y en el campo ìTipoRegistroî la letra ìBî.
-- Para el caso de las modificaciones se le dar· el mismo tratamiento que para los usuarios dados de BAJA, colocando los datos que figuran en la tabla ìDATOS_USUARIOSî con las adecuaciones efectuadas y en el campo ìTipoRegistroî la letra ìMî.
+- Para situaciones excepcionales, debidamente justificadas ante la SIGET y aceptadas por √©sta, cuando la empresa distribuidora no disponga de las coordenadas UTM para algunos usuarios, deber√° informar las correspondientes al centro de transformaci√≥n de MTBT al cual √©stos se encuentran conectados.
+- Esta tabla se enviar√° completa con todos los usuarios que estuvieron activos durante el primer mes del per√≠odo de control, conjuntamente con las correspondientes tablas mensuales. Debe tenerse en cuenta que en el campo ‚ÄúTipoRegistro‚Äù debe figurar la letra ‚ÄúA‚Äù.
+- En los meses siguientes, s√≥lo deben enviarse aquellos registros de usuarios que hayan estado de ALTA, de BAJA o que hayan sufrido modificaci√≥n en el mes informado.
+- Todos los usuarios dados de baja en el mes ‚ÄúN‚Äù se deber√°n informar con los datos correspondientes al mes ‚ÄúN+1‚Äù colocando los datos que figuran en la tabla ‚ÄúDATOS_USUARIOS‚Äù y en el campo ‚ÄúTipoRegistro‚Äù la letra ‚ÄúB‚Äù.
+- Para el caso de las modificaciones se le dar√° el mismo tratamiento que para los usuarios dados de BAJA, colocando los datos que figuran en la tabla ‚ÄúDATOS_USUARIOS‚Äù con las adecuaciones efectuadas y en el campo ‚ÄúTipoRegistro‚Äù la letra ‚ÄúM‚Äù.
 
-La tarifa del usuario deber· indicarse de acuerdo a la siguiente codificaciÛn:
+La tarifa del usuario deber√° indicarse de acuerdo a la siguiente codificaci√≥n:
 
-| TARIFA | DESCRIPCI”N                                                                                                                                       |
+| TARIFA | DESCRIPCI√ìN                                                                                                                                       |
 |--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 109    | Tarifa simple para Usuarios conectados en baja tensiÛn, pequeÒa demanda residencial con consumo menor o igual a 99 kWh.                             |
-| 110    | Tarifa simple para Usuarios conectados en baja tensiÛn, pequeÒa demanda residencial con consumo mayor que 99 kWh y menor o igual a 200 kWh.          |
-| 111    | Tarifa simple para Usuarios conectados en baja tensiÛn, pequeÒa demanda residencial con consumo mayor de 200 kWh.                                   |
-| 112    | Tarifa simple para Usuarios conectados en baja tensiÛn, pequeÒa demanda uso general                                                                 |
-| 113    | Tarifa de Alumbrado P˙blico                                                                                                                        |
-| 121    | Tarifa simple para Usuarios conectados en baja tensiÛn, mediana demanda sin mediciÛn de potencia                                                    |
-| 122    | Tarifa simple para Usuarios conectados en baja tensiÛn, mediana demanda con mediciÛn de potencia                                                    |
-| 123    | Tarifa simple para Usuarios conectados en baja tensiÛn, mediana demanda con medidor horario                                                         |
-| 131    | Tarifa simple para Usuarios conectados en baja tensiÛn, grandes demandas con medidor horario                                                        |
-| 132    | Tarifa simple para Usuarios conectados en baja tensiÛn, grandes demandas con medidor electromec·nico                                                |
+| 109    | Tarifa simple para Usuarios conectados en baja tensi√≥n, peque√±a demanda residencial con consumo menor o igual a 99 kWh.                             |
+| 110    | Tarifa simple para Usuarios conectados en baja tensi√≥n, peque√±a demanda residencial con consumo mayor que 99 kWh y menor o igual a 200 kWh.          |
+| 111    | Tarifa simple para Usuarios conectados en baja tensi√≥n, peque√±a demanda residencial con consumo mayor de 200 kWh.                                   |
+| 112    | Tarifa simple para Usuarios conectados en baja tensi√≥n, peque√±a demanda uso general                                                                 |
+| 113    | Tarifa de Alumbrado P√∫blico                                                                                                                        |
+| 121    | Tarifa simple para Usuarios conectados en baja tensi√≥n, mediana demanda sin medici√≥n de potencia                                                    |
+| 122    | Tarifa simple para Usuarios conectados en baja tensi√≥n, mediana demanda con medici√≥n de potencia                                                    |
+| 123    | Tarifa simple para Usuarios conectados en baja tensi√≥n, mediana demanda con medidor horario                                                         |
+| 131    | Tarifa simple para Usuarios conectados en baja tensi√≥n, grandes demandas con medidor horario                                                        |
+| 132    | Tarifa simple para Usuarios conectados en baja tensi√≥n, grandes demandas con medidor electromec√°nico                                                |
 | 211    | Tarifa para Usuarios conectados en medianas demandas en MT, sin medidor de potencia                                                                 |
 | 212    | Tarifa para Usuarios conectados en medianas demandas en MT, con medidor de potencia                                                                 |
 | 213    | Tarifa para Usuarios conectados en medianas demandas en MT, con medidor horario                                                                     |
 | 221    | Tarifa para Usuarios conectados en grandes demandas en MT, con medidor horario                                                                      |
-| 222    | Tarifa para Usuarios conectados en grandes demandas en MT, con medidor electromec·nico                                                              |
+| 222    | Tarifa para Usuarios conectados en grandes demandas en MT, con medidor electromec√°nico                                                              |
 
 Nota:
-Para el caso en que la distribuidora aplique tarifas especiales no reguladas, con diferente denominaciÛn, SP1, 2, 3, 4 seg˙n sea el caso, la Distribuidora deber· adaptar dichas tarifas a las tarifas codificadas en la tabla anterior.
+Para el caso en que la distribuidora aplique tarifas especiales no reguladas, con diferente denominaci√≥n, SP1, 2, 3, 4 seg√∫n sea el caso, la Distribuidora deber√° adaptar dichas tarifas a las tarifas codificadas en la tabla anterior.
 
-El cÛdigo del tipo del medidor se realizar· de la siguiente forma:
+El c√≥digo del tipo del medidor se realizar√° de la siguiente forma:
 
-MEDIDORES CON SISTEMAS AUXILIARES DE TRANSFORMACI”N
+MEDIDORES CON SISTEMAS AUXILIARES DE TRANSFORMACI√ìN
 
-| CODTIPO | FORMA | HILOS | FASES | VOLTIOS | AMPPRUEBA | AMPM¡XIMO |
+| CODTIPO | FORMA | HILOS | FASES | VOLTIOS | AMPPRUEBA | AMPM√ÅXIMO |
 |---------|-------|-------|-------|---------|-----------|-----------|
 | 111     | 4S    | 3     | 1     | 240     | 2.5       | 10        |
 | 112     | 5A    | 3     | 3     | 120     | 2.5       | 10        |
@@ -472,9 +472,9 @@ MEDIDORES CON SISTEMAS AUXILIARES DE TRANSFORMACI”N
 | 116B    | 9S    | 3     | 3     | 120/208 | 2.5       | 20        |
 
 MEDIDORES AUTOCONTENIDOS
-AquÌ tienes la transcripciÛn de la tabla "MEDIDORES AUTOCONTENIDOS":
+Aqu√≠ tienes la transcripci√≥n de la tabla "MEDIDORES AUTOCONTENIDOS":
 
-| CODTIPO | FORMA | HILOS | FASES | VOLTIOS | AMPPRUEBA | AMPM¡XIMO |
+| CODTIPO | FORMA | HILOS | FASES | VOLTIOS | AMPPRUEBA | AMPM√ÅXIMO |
 |---------|-------|-------|-------|---------|-----------|-----------|
 | 211     | 1A    | 2     | 1     | 120     | 15        | 100       |
 | 212     | 1S    | 2     | 1     | 120     | 15        | 100       |
@@ -540,69 +540,69 @@ AquÌ tienes la transcripciÛn de la tabla "MEDIDORES AUTOCONTENIDOS":
 
 TABLA: SALIDA_GLOBAL
 
-| CAMPO               | DESCRIPCI”N                                                      | TIPO    |
+| CAMPO               | DESCRIPCI√ìN                                                      | TIPO    |
 |---------------------|------------------------------------------------------------------|---------|
-| CODIndicador        | CÛdigo de Indicador seg˙n tabla adjunta                          | Texto (5)|
+| CODIndicador        | C√≥digo de Indicador seg√∫n tabla adjunta                          | Texto (5)|
 | Tipo                | Alta (A), Media (M), Baja (B), o Global (G)                      | Texto (5)|
 | Valor               | Valor del Indicador                                              | Decimal |
-| MontoCompensacion   | Monto Calculado de la CompensaciÛn (DÛlares)                     | Decimal |
+| MontoCompensacion   | Monto Calculado de la Compensaci√≥n (D√≥lares)                     | Decimal |
 
 Nota:
-El CODIndicador deber· indicarse de acuerdo a la siguiente codificaciÛn:
+El CODIndicador deber√° indicarse de acuerdo a la siguiente codificaci√≥n:
 
-| INDICADOR | DESCRIPCI”N                                                                                     |
+| INDICADOR | DESCRIPCI√ìN                                                                                     |
 |-----------|------------------------------------------------------------------------------------------------|
 | COSE      | Conexiones de Servicio por Tipo de Zona                                                        |
-| USRE      | Usuarios reconectados despuÈs de una interrupciÛn por Tipo de Zona                             |
-| IPE       | Calidad de la FacturaciÛn - Porcentaje de errores en la facturaciÛn                            |
-| IFE       | Calidad de la FacturaciÛn - Porcentaje de facturaciÛn estimada por Tipo de Zona                |
+| USRE      | Usuarios reconectados despu√©s de una interrupci√≥n por Tipo de Zona                             |
+| IPE       | Calidad de la Facturaci√≥n - Porcentaje de errores en la facturaci√≥n                            |
+| IFE       | Calidad de la Facturaci√≥n - Porcentaje de facturaci√≥n estimada por Tipo de Zona                |
 | PRUI      | Tratamiento de Reclamos - Porcentaje de reclamos por Interrupciones de Servicio                |
-| PRUT      | Tratamiento de Reclamos - Porcentaje de reclamos por Niveles de TensiÛn                        |
+| PRUT      | Tratamiento de Reclamos - Porcentaje de reclamos por Niveles de Tensi√≥n                        |
 | PRUC      | Tratamiento de Reclamos - Porcentaje de reclamos por problemas Comerciales                     |
 | TPA       | Tratamiento de Reclamos - Tiempo promedio de procesamiento                                     |
-| PRA       | Tratamiento de Reclamos ñ Porcentaje de ResoluciÛn                                             |
-| RCSU      | ReconexiÛn de Suministro por Tipo de Zona                                                      |
+| PRA       | Tratamiento de Reclamos ‚Äì Porcentaje de Resoluci√≥n                                             |
+| RCSU      | Reconexi√≥n de Suministro por Tipo de Zona                                                      |
 | RCUS      | Respuesta a las Consultas de los Usuarios                                                      |
 
-Deber· repetirse el CODIndicador como Tipo de Zonas que existan, indicando el valor en el campo denominado VALOR. En caso de no existir el valor para este campo se deber· indicar como dato Nulo.
+Deber√° repetirse el CODIndicador como Tipo de Zonas que existan, indicando el valor en el campo denominado VALOR. En caso de no existir el valor para este campo se deber√° indicar como dato Nulo.
 
-Aquellos indicadores que no requieran discriminaciÛn por Tipo de Zona se deber·n informar con una ìGî en el campo Tipo.
+Aquellos indicadores que no requieran discriminaci√≥n por Tipo de Zona se deber√°n informar con una ‚ÄúG‚Äù en el campo Tipo.
 
 ---
 
-INFORMACI”N CON PERIODICIDAD MENSUAL
+INFORMACI√ìN CON PERIODICIDAD MENSUAL
 
 TABLA: NUEVOS_SERVICIOS
 
-| CAMPO          | DESCRIPCI”N                                                                                       | TIPO        |
+| CAMPO          | DESCRIPCI√ìN                                                                                       | TIPO        |
 |----------------|---------------------------------------------------------------------------------------------------|-------------|
-| IDUsuario      | IdentificaciÛn ˙nica del usuario (identificador, N∫ de cuenta, etc. seg˙n corresponda)             | Texto (30)  |
-| CodTramite     | IdentificaciÛn ˙nica que el sistema otorga al tr·mite                                              | Texto (15)  |
-| ModificacionRed| Indica si hay o no modificaciÛn en la red: SI (S), NO (N)                                          | Texto (1)   |
-| FechaSolicitud | Fecha en que el usuario concretÛ la solicitud de la conexiÛn del suministro                        | Fecha       |
-| FechaPago      | Fecha en que el usuario abonÛ el derecho de conexiÛn correspondiente                               | Fecha       |
-| FechaConexion  | Fecha de puesta a disposiciÛn del cliente el suministro                                            | Fecha       |
-| CostoConexiÛn  | Costo de conexiÛn de servicio, incluye acometida y equipo de mediciÛn y costos asociados (dÛlares) | Decimal     |
+| IDUsuario      | Identificaci√≥n √∫nica del usuario (identificador, N¬∫ de cuenta, etc. seg√∫n corresponda)             | Texto (30)  |
+| CodTramite     | Identificaci√≥n √∫nica que el sistema otorga al tr√°mite                                              | Texto (15)  |
+| ModificacionRed| Indica si hay o no modificaci√≥n en la red: SI (S), NO (N)                                          | Texto (1)   |
+| FechaSolicitud | Fecha en que el usuario concret√≥ la solicitud de la conexi√≥n del suministro                        | Fecha       |
+| FechaPago      | Fecha en que el usuario abon√≥ el derecho de conexi√≥n correspondiente                               | Fecha       |
+| FechaConexion  | Fecha de puesta a disposici√≥n del cliente el suministro                                            | Fecha       |
+| CostoConexi√≥n  | Costo de conexi√≥n de servicio, incluye acometida y equipo de medici√≥n y costos asociados (d√≥lares) | Decimal     |
 
 TABLA: RECONEXIONES
 
-| CAMPO             | DESCRIPCI”N                                                                                        | TIPO        |
+| CAMPO             | DESCRIPCI√ìN                                                                                        | TIPO        |
 |-------------------|----------------------------------------------------------------------------------------------------|-------------|
-| IDUsuario         | IdentificaciÛn ˙nica del usuario (identificador, N∫ de cuenta, etc. seg˙n corresponda)              | Texto (30)  |
-| CodTramite        | IdentificaciÛn ˙nica que el sistema otorga al tr·mite                                               | Texto (15)  |
-| FechaSuspension   | Fecha de la suspensiÛn del suministro                                                               | Fecha       |
-| MotivoSuspension  | Motivo de la suspensiÛn seg˙n tabla adjunta (*)                                                     | Texto (2)   |
-| FechaEliminacionCausa | Fecha y hora de pago del monto que da derecho a la reconexiÛn o notificaciÛn de la eliminaciÛn de la causa que originÛ la interrupciÛn | Fecha y Hora|
-| FechaReconexion   | Fecha y hora fehaciente de reconexiÛn                                                               | Fecha y Hora|
-| PromedioConsumo   | Promedio mensual de consumo real (en kWh) facturado de los ˙ltimos 3 (tres) meses                   | Decimal     |
+| IDUsuario         | Identificaci√≥n √∫nica del usuario (identificador, N¬∫ de cuenta, etc. seg√∫n corresponda)              | Texto (30)  |
+| CodTramite        | Identificaci√≥n √∫nica que el sistema otorga al tr√°mite                                               | Texto (15)  |
+| FechaSuspension   | Fecha de la suspensi√≥n del suministro                                                               | Fecha       |
+| MotivoSuspension  | Motivo de la suspensi√≥n seg√∫n tabla adjunta (*)                                                     | Texto (2)   |
+| FechaEliminacionCausa | Fecha y hora de pago del monto que da derecho a la reconexi√≥n o notificaci√≥n de la eliminaci√≥n de la causa que origin√≥ la interrupci√≥n | Fecha y Hora|
+| FechaReconexion   | Fecha y hora fehaciente de reconexi√≥n                                                               | Fecha y Hora|
+| PromedioConsumo   | Promedio mensual de consumo real (en kWh) facturado de los √∫ltimos 3 (tres) meses                   | Decimal     |
 
-(*) El motivo que dio origen a la suspensiÛn del suministro deber· indicarse de acuerdo a la siguiente codificaciÛn:
+(*) El motivo que dio origen a la suspensi√≥n del suministro deber√° indicarse de acuerdo a la siguiente codificaci√≥n:
 
-| MOTIVO | DESCRIPCI”N                                            |
+| MOTIVO | DESCRIPCI√ìN                                            |
 |--------|--------------------------------------------------------|
 | FP     | Falta de pago de al menos 2 facturas                   |
-| CD     | ConexiÛn directa                                       |
-| AS     | AlteraciÛn de las condiciones de suministro            |
+| CD     | Conexi√≥n directa                                       |
+| AS     | Alteraci√≥n de las condiciones de suministro            |
 | SU     | Solicitud del usuario                                  |
 | SC     | Solicitud del comercializador                          |
 | IP     | Instalaciones con peligro para la seguridad de las personas o bienes |
@@ -610,93 +610,93 @@ TABLA: RECONEXIONES
 
 TABLA: RECLAMOS
 
-| CAMPO           | DESCRIPCI”N                                                                                              | TIPO        |
+| CAMPO           | DESCRIPCI√ìN                                                                                              | TIPO        |
 |-----------------|----------------------------------------------------------------------------------------------------------|-------------|
-| IDUsuario       | IdentificaciÛn ˙nica del usuario (identificador, N∫ de cuenta, etc. seg˙n corresponda)                    | Texto (30)  |
-| CodTramite      | IdentificaciÛn ˙nica que el sistema otorga al tr·mite                                                     | Texto (15)  |
-| Fecha Reclamo   | Fecha en que el usuario realizÛ el reclamo                                                                | Fecha       |
-| Motivo Reclamo  | Causa que originÛ la realizaciÛn del reclamo por parte del usuario (*)                                  | Texto (2)   |
-| Monto Reclamo   | Monto de la facturaciÛn objeto del reclamo (monto de las facturas en dÛlares)                             | Decimal     |
-| Fecha SoluciÛn  | Fecha de cierre del reclamo                                                                               | Fecha       |
+| IDUsuario       | Identificaci√≥n √∫nica del usuario (identificador, N¬∫ de cuenta, etc. seg√∫n corresponda)                    | Texto (30)  |
+| CodTramite      | Identificaci√≥n √∫nica que el sistema otorga al tr√°mite                                                     | Texto (15)  |
+| Fecha Reclamo   | Fecha en que el usuario realiz√≥ el reclamo                                                                | Fecha       |
+| Motivo Reclamo  | Causa que origin√≥ la realizaci√≥n del reclamo por parte del usuario (*)                                  | Texto (2)   |
+| Monto Reclamo   | Monto de la facturaci√≥n objeto del reclamo (monto de las facturas en d√≥lares)                             | Decimal     |
+| Fecha Soluci√≥n  | Fecha de cierre del reclamo                                                                               | Fecha       |
 | Procedente      | Reclamo Procedente (*) (S=SI, N=NO)                                                                       | Texto (1)   |
-| VÌa Reclamo     | VÌa o canal mediante el cual se efectuÛ el reclamo ()                                                   | Texto (1)   |
-| Observacion     | Completar en caso de reclamos con cÛdigos de motivos FC o BV                                              | Texto (150) |
+| V√≠a Reclamo     | V√≠a o canal mediante el cual se efectu√≥ el reclamo ()                                                   | Texto (1)   |
+| Observacion     | Completar en caso de reclamos con c√≥digos de motivos FC o BV                                              | Texto (150) |
 
 Nota:
 - (*) En esta tabla deben registrarse todos los reclamos efectuados por los clientes independientemente de ser o no procedentes.
-- Se deber· considerar procedente todo reclamo, cualquiera sea el motivo, fundado en fallas del servicio, errores o incumplimientos de la Distribuidora, o que tenga origen en informaciÛn confusa o poco comprensible brindada por la Distribuidora, que lleve al usuario a considerar que se encuentra en alguna de las causales antes indicadas. Luego de su an·lisis los reclamos procedentes podr·n ser resueltos de modo favorable o desfavorable al usuario.
-- Se considerar· improcedente todo reclamo que, sin necesidad de tramitaciÛn alguna, resulta evidente que no responde a ninguna de las causales indicadas precedentemente. Los mismos deber·n ser registrados y cerrados por improcedentes en el momento de su presentaciÛn e informados en la tabla RECLAMOS.
-- () La vÌa por la que se recibiÛ el reclamo deber· suministrarse utilizando la siguiente codificaciÛn: P (Personal), T (TelÈfono), C (Carta, Nota o Fax), E (Correo electrÛnico).
-- (*) El campo MotivoReclamo se informar· codificado por motivo de reclamo del siguiente modo:
+- Se deber√° considerar procedente todo reclamo, cualquiera sea el motivo, fundado en fallas del servicio, errores o incumplimientos de la Distribuidora, o que tenga origen en informaci√≥n confusa o poco comprensible brindada por la Distribuidora, que lleve al usuario a considerar que se encuentra en alguna de las causales antes indicadas. Luego de su an√°lisis los reclamos procedentes podr√°n ser resueltos de modo favorable o desfavorable al usuario.
+- Se considerar√° improcedente todo reclamo que, sin necesidad de tramitaci√≥n alguna, resulta evidente que no responde a ninguna de las causales indicadas precedentemente. Los mismos deber√°n ser registrados y cerrados por improcedentes en el momento de su presentaci√≥n e informados en la tabla RECLAMOS.
+- () La v√≠a por la que se recibi√≥ el reclamo deber√° suministrarse utilizando la siguiente codificaci√≥n: P (Personal), T (Tel√©fono), C (Carta, Nota o Fax), E (Correo electr√≥nico).
+- (*) El campo MotivoReclamo se informar√° codificado por motivo de reclamo del siguiente modo:
 
-| MOTIVO | DESCRIPCI”N                             |
+| MOTIVO | DESCRIPCI√ìN                             |
 |--------|-----------------------------------------|
-| AC     | Atraso en la conexiÛn                   |
-| AR     | Atraso en la reconexiÛn                 |
+| AC     | Atraso en la conexi√≥n                   |
+| AR     | Atraso en la reconexi√≥n                 |
 | RF     | No recibe factura                       |
-| DF     | Cambio de nombre o direcciÛn en la factura |
-| CA     | Cobros altos (Error FacturaciÛn)        |
-| FC     | Fallas del contador (Error FacturaciÛn) |
-| IT     | Inconformidad con la tarifa (Error FacturaciÛn) |
-| EL     | Error de lectura (Error FacturaciÛn)    |
-| FE     | Falta de energÌa                        |
+| DF     | Cambio de nombre o direcci√≥n en la factura |
+| CA     | Cobros altos (Error Facturaci√≥n)        |
+| FC     | Fallas del contador (Error Facturaci√≥n) |
+| IT     | Inconformidad con la tarifa (Error Facturaci√≥n) |
+| EL     | Error de lectura (Error Facturaci√≥n)    |
+| FE     | Falta de energ√≠a                        |
 | BV     | Bajo/Alto voltaje                       |
 | FT     | Falla de transformador                  |
-| NA     | No atenciÛn de llamadas de emergencia   |
-| DA     | Deficiente atenciÛn de llamadas de emergencia ñ atraso |
-| AO     | Mala atenciÛn en oficinas               |
-| DE     | DaÒos de equipos                        |
-| DP     | DaÒos a la propiedad                    |
-| OC     | Orden de corte sin razÛn                |
+| NA     | No atenci√≥n de llamadas de emergencia   |
+| DA     | Deficiente atenci√≥n de llamadas de emergencia ‚Äì atraso |
+| AO     | Mala atenci√≥n en oficinas               |
+| DE     | Da√±os de equipos                        |
+| DP     | Da√±os a la propiedad                    |
+| OC     | Orden de corte sin raz√≥n                |
 
 TABLA: RECLAMOS_INCONVENIENTES
 
-| CAMPO           | DESCRIPCI”N                                                                                            | TIPO        |
+| CAMPO           | DESCRIPCI√ìN                                                                                            | TIPO        |
 |-----------------|--------------------------------------------------------------------------------------------------------|-------------|
-| IDUsuario       | IdentificaciÛn ˙nica del usuario (identificador, N∫ cuenta, etc. seg˙n corresponda)                    | Texto (30)  |
-| CodTramite      | IdentificaciÛn ˙nica que el sistema otorga al tr·mite                                                  | Texto (15)  |
-| FechaReclamo    | Fecha en que el usuario realizÛ el reclamo                                                             | Fecha       |
-| MotivoReclamo   | Causa que originÛ la realizaciÛn del reclamo por parte del usuario (BV y FC) (*)                       | Texto (2)   |
-| FechaInspeccion | Fecha en que se realizÛ la inspecciÛn tÈcnica al lugar                                                 | Fecha       |
+| IDUsuario       | Identificaci√≥n √∫nica del usuario (identificador, N¬∫ cuenta, etc. seg√∫n corresponda)                    | Texto (30)  |
+| CodTramite      | Identificaci√≥n √∫nica que el sistema otorga al tr√°mite                                                  | Texto (15)  |
+| FechaReclamo    | Fecha en que el usuario realiz√≥ el reclamo                                                             | Fecha       |
+| MotivoReclamo   | Causa que origin√≥ la realizaci√≥n del reclamo por parte del usuario (BV y FC) (*)                       | Texto (2)   |
+| FechaInspeccion | Fecha en que se realiz√≥ la inspecci√≥n t√©cnica al lugar                                                 | Fecha       |
 | FechaRespuesta  | Fecha de respuesta por escrito                                                                         | Fecha       |
 | Procedente      | Reclamo Procedente () (S=SI, N=NO)                                                                   | Texto (1)   |
 
 Nota:
-- (*) El campo MotivoReclamo se informar· codificado del siguiente modo:
+- (*) El campo MotivoReclamo se informar√° codificado del siguiente modo:
   - BV: Bajo/Alto voltaje
   - FC: Fallas del
 
  contador.
-- () En esta tabla deben registrarse todos los reclamos efectuados por los clientes del motivo especificado en el campo MotivoReclamo, independientemente de ser o no procedentes. Cada reclamo se informar· tantas veces como se actualice en alguno de sus campos de fecha hasta que el mismo sea cerrado con la fecha de respuesta por escrito.
+- () En esta tabla deben registrarse todos los reclamos efectuados por los clientes del motivo especificado en el campo MotivoReclamo, independientemente de ser o no procedentes. Cada reclamo se informar√° tantas veces como se actualice en alguno de sus campos de fecha hasta que el mismo sea cerrado con la fecha de respuesta por escrito.
 
 TABLA: RECLAMOS_FE
 
-| CAMPO      | DESCRIPCI”N                                                                                                    | TIPO        |
+| CAMPO      | DESCRIPCI√ìN                                                                                                    | TIPO        |
 |------------|----------------------------------------------------------------------------------------------------------------|-------------|
-| IDUsuario  | IdentificaciÛn ˙nica del usuario                                                                               | Texto (30)  |
-| IDInter    | IdentificaciÛn de la InterrupciÛn (UnÌvoca para cada InterrupciÛn)                                             | Texto (20)  |
-| CodTramite | IdentificaciÛn ˙nica que el sistema otorga al tr·mite (el mismo que en tabla RECLAMOS)                         | Texto (15)  |
+| IDUsuario  | Identificaci√≥n √∫nica del usuario                                                                               | Texto (30)  |
+| IDInter    | Identificaci√≥n de la Interrupci√≥n (Un√≠voca para cada Interrupci√≥n)                                             | Texto (20)  |
+| CodTramite | Identificaci√≥n √∫nica que el sistema otorga al tr√°mite (el mismo que en tabla RECLAMOS)                         | Texto (15)  |
 | FechaIn    | Fecha y Hora del reclamo                                                                                       | Fecha+Hora  |
-| FechaRp    | Fecha y Hora de la ReposiciÛn                                                                                  | Fecha+Hora  |
+| FechaRp    | Fecha y Hora de la Reposici√≥n                                                                                  | Fecha+Hora  |
 
-Nota: No se incluir·n en esta tabla los reclamos que sean realizados por una interrupciÛn externa o programada. Cada reclamo se informar· tantas veces como se actualice en alguno de sus campos de fecha hasta que el mismo sea cerrado.
+Nota: No se incluir√°n en esta tabla los reclamos que sean realizados por una interrupci√≥n externa o programada. Cada reclamo se informar√° tantas veces como se actualice en alguno de sus campos de fecha hasta que el mismo sea cerrado.
 
 TABLA: FUERZA_MAYOR (Tabla de Casos Fortuitos o Fuerza Mayor)
 
-| CAMPO             | DESCRIPCI”N                                                                                             | TIPO        |
+| CAMPO             | DESCRIPCI√ìN                                                                                             | TIPO        |
 |-------------------|---------------------------------------------------------------------------------------------------------|-------------|
-| Caso              | N∞ correlativo de caso                                                                                   | Entero      |
-| IDInter           | IdentificaciÛn de la InterrupciÛn (UnÌvoca para cada InterrupciÛn)                                       | Texto (20)  |
+| Caso              | N¬∞ correlativo de caso                                                                                   | Entero      |
+| IDInter           | Identificaci√≥n de la Interrupci√≥n (Un√≠voca para cada Interrupci√≥n)                                       | Texto (20)  |
 | InstalacionAfect  | Instalaciones afectadas (SE, Circuito, etc.)                                                             | Texto (50)  |
 | UsuaAfect         | Cantidad de usuarios afectados                                                                          | Entero      |
-| FechaIn           | Fecha y hora de inicio de la interrupciÛn                                                                | Fecha + Hora|
-| FechaRp           | Fecha y hora de ˙ltima reposiciÛn                                                                        | Fecha + Hora|
-| Duracion          | DuraciÛn de la interrupciÛn                                                                             | Entero      |
-| Causa             | Causa de la interrupciÛn (*)                                                                             | Texto (2)   |
+| FechaIn           | Fecha y hora de inicio de la interrupci√≥n                                                                | Fecha + Hora|
+| FechaRp           | Fecha y hora de √∫ltima reposici√≥n                                                                        | Fecha + Hora|
+| Duracion          | Duraci√≥n de la interrupci√≥n                                                                             | Entero      |
+| Causa             | Causa de la interrupci√≥n (*)                                                                             | Texto (2)   |
 | Observacion       | Observaciones                                                                                           | Texto (150) |
 
 Nota:
-- (*) La causa de la interrupciÛn deber· indicarse de acuerdo a la siguiente codificaciÛn:
+- (*) La causa de la interrupci√≥n deber√° indicarse de acuerdo a la siguiente codificaci√≥n:
   - TF: Tormentas fuertes
   - TR: Terremotos
   - IN: Inundaciones
@@ -705,65 +705,65 @@ Nota:
 
 TABLA: POTENCIAS
 
-| CAMPO        | DESCRIPCI”N                                                                                                 | TIPO        |
+| CAMPO        | DESCRIPCI√ìN                                                                                                 | TIPO        |
 |--------------|-------------------------------------------------------------------------------------------------------------|-------------|
-| IDUsuario    | IdentificaciÛn ˙nica del usuario (identificador, N∫ de cuenta, etc. seg˙n corresponda)                       | Texto (30)  |
-| CodTramite   | IdentificaciÛn ˙nica que el sistema otorga al tr·mite                                                       | Texto (15)  |
-| FechaCambio  | Fecha en que el usuario solicitÛ el cambio de potencia                                                      | Fecha       |
+| IDUsuario    | Identificaci√≥n √∫nica del usuario (identificador, N¬∫ de cuenta, etc. seg√∫n corresponda)                       | Texto (30)  |
+| CodTramite   | Identificaci√≥n √∫nica que el sistema otorga al tr√°mite                                                       | Texto (15)  |
+| FechaCambio  | Fecha en que el usuario solicit√≥ el cambio de potencia                                                      | Fecha       |
 | NuevaPotencia| Nueva potencia contratada (kW)                                                                              | Decimal     |
-| FechaAplica  | Fecha a partir de la cual se efect˙a el cambio                                                              | Fecha       |
-| CostoCambio  | Costo del cambio de potencia (dÛlares)                                                                      | Decimal     |
+| FechaAplica  | Fecha a partir de la cual se efect√∫a el cambio                                                              | Fecha       |
+| CostoCambio  | Costo del cambio de potencia (d√≥lares)                                                                      | Decimal     |
 
 TABLA: SALIDA_INDIVIDUAL
 
-| CAMPO             | DESCRIPCI”N                                                                                          | TIPO        |
+| CAMPO             | DESCRIPCI√ìN                                                                                          | TIPO        |
 |-------------------|------------------------------------------------------------------------------------------------------|-------------|
-| IDUsuario         | IdentificaciÛn ˙nica del usuario (identificador, N∫ de cuenta, etc. seg˙n corresponda)               | Texto (30)  |
-| CodTramite        | IdentificaciÛn ˙nica que el sistema otorga al tr·mite                                                | Texto (15)  |
-| Fecha             | Fecha de la transacciÛn                                                                              | Fecha       |
+| IDUsuario         | Identificaci√≥n √∫nica del usuario (identificador, N¬∫ de cuenta, etc. seg√∫n corresponda)               | Texto (30)  |
+| CodTramite        | Identificaci√≥n √∫nica que el sistema otorga al tr√°mite                                                | Texto (15)  |
+| Fecha             | Fecha de la transacci√≥n                                                                              | Fecha       |
 | Valor             | Valor del indicador                                                                                  | Decimal     |
-| Compensacion      | Monto de compensaciÛn calculada para el usuario (dÛlares)                                            | Decimal     |
+| Compensacion      | Monto de compensaci√≥n calculada para el usuario (d√≥lares)                                            | Decimal     |
 
 TABLA: FACTURACION
 
-| CAMPO           | DESCRIPCI”N                                                                                              | TIPO        |
+| CAMPO           | DESCRIPCI√ìN                                                                                              | TIPO        |
 |-----------------|----------------------------------------------------------------------------------------------------------|-------------|
-| IDUsuario       | IdentificaciÛn ˙nica del usuario (identificador, N∫ de cuenta, etc. seg˙n corresponda)                    | Texto (30)  |
-| Periodo         | PerÌodo facturado                                                                                        | Texto (6)   |
-| Consumo         | Consumo de energÌa (kWh)                                                                                 | Decimal     |
-| Factura         | Monto de la factura (dÛlares)                                                                            | Decimal     |
+| IDUsuario       | Identificaci√≥n √∫nica del usuario (identificador, N¬∫ de cuenta, etc. seg√∫n corresponda)                    | Texto (30)  |
+| Periodo         | Per√≠odo facturado                                                                                        | Texto (6)   |
+| Consumo         | Consumo de energ√≠a (kWh)                                                                                 | Decimal     |
+| Factura         | Monto de la factura (d√≥lares)                                                                            | Decimal     |
 
 TABLA: FACTURACION_ERRONEA
 
-| CAMPO           | DESCRIPCI”N                                                                                              | TIPO        |
+| CAMPO           | DESCRIPCI√ìN                                                                                              | TIPO        |
 |-----------------|----------------------------------------------------------------------------------------------------------|-------------|
-| IDUsuario       | IdentificaciÛn ˙nica del usuario (identificador, N∫ de cuenta, etc. seg˙n corresponda)                    | Texto (30)  |
-| CodTramite      | IdentificaciÛn ˙nica que el sistema otorga al tr·mite                                                     | Texto (15)  |
-| FechaFactura    | Fecha de emisiÛn de la factura                                                                            | Fecha       |
-| MontoFactura    | Monto de la factura original (dÛlares)                                                                    | Decimal     |
-| MontoReajuste   | Monto de la factura reajustada (dÛlares)                                                                  | Decimal     |
+| IDUsuario       | Identificaci√≥n √∫nica del usuario (identificador, N¬∫ de cuenta, etc. seg√∫n corresponda)                    | Texto (30)  |
+| CodTramite      | Identificaci√≥n √∫nica que el sistema otorga al tr√°mite                                                     | Texto (15)  |
+| FechaFactura    | Fecha de emisi√≥n de la factura                                                                            | Fecha       |
+| MontoFactura    | Monto de la factura original (d√≥lares)                                                                    | Decimal     |
+| MontoReajuste   | Monto de la factura reajustada (d√≥lares)                                                                  | Decimal     |
 | MotivoReajuste  | Motivo del reajuste ()                                                                                  | Texto (2)   |
 
 Nota:
-- () El motivo del reajuste deber· indicarse de acuerdo a la siguiente codificaciÛn:
+- () El motivo del reajuste deber√° indicarse de acuerdo a la siguiente codificaci√≥n:
   - 01: Error de lectura
-  - 02: Error de facturaciÛn
+  - 02: Error de facturaci√≥n
   - 03: Reclamo del usuario
   - 04: Otros
 
 TABLA: FACTURACION_ESTIMADA
 
-| CAMPO           | DESCRIPCI”N                                                                                              | TIPO        |
+| CAMPO           | DESCRIPCI√ìN                                                                                              | TIPO        |
 |-----------------|----------------------------------------------------------------------------------------------------------|-------------|
-| IDUsuario       | IdentificaciÛn ˙nica del usuario (identificador, N∫ de cuenta, etc. seg˙n corresponda)                    | Texto (30)  |
-| CodTramite      | IdentificaciÛn ˙nica que el sistema otorga al tr·mite                                                     | Texto (15)  |
-| FechaFactura    | Fecha de emisiÛn de la factura                                                                            | Fecha       |
-| ConsumoEstimado | Consumo estimado de energÌa (kWh)                                                                         | Decimal     |
-| MontoEstimado   | Monto estimado de la factura (dÛlares)                                                                    | Decimal     |
+| IDUsuario       | Identificaci√≥n √∫nica del usuario (identificador, N¬∫ de cuenta, etc. seg√∫n corresponda)                    | Texto (30)  |
+| CodTramite      | Identificaci√≥n √∫nica que el sistema otorga al tr√°mite                                                     | Texto (15)  |
+| FechaFactura    | Fecha de emisi√≥n de la factura                                                                            | Fecha       |
+| ConsumoEstimado | Consumo estimado de energ√≠a (kWh)                                                                         | Decimal     |
+| MontoEstimado   | Monto estimado de la factura (d√≥lares)                                                                    | Decimal     |
 | MotivoEstimado  | Motivo del estimado ()                                                                                  | Texto (2)   |
 
 Nota:
-- () El motivo del estimado deber· indicarse de acuerdo a la siguiente codificaciÛn:
+- () El motivo del estimado deber√° indicarse de acuerdo a la siguiente codificaci√≥n:
   - 01: Acceso denegado al medidor
   - 02: Medidor fuera de servicio
   - 03: Medidor defectuoso
@@ -772,90 +772,92 @@ Nota:
 
 TABLA: INTERR_PROGRAMADAS
 
-| CAMPO           | DESCRIPCI”N                                                                                              | TIPO        |
+| CAMPO           | DESCRIPCI√ìN                                                                                              | TIPO        |
 |-----------------|----------------------------------------------------------------------------------------------------------|-------------|
-| IDUsuario       | IdentificaciÛn ˙nica del usuario (identificador, N∫ de cuenta, etc. seg˙n corresponda)                    | Texto (30)  |
-| CodTramite      | IdentificaciÛn ˙nica que el sistema otorga al tr·mite                                                     | Texto (15)  |
-| FechaNotif      | Fecha de notificaciÛn al usuario                                                                          | Fecha       |
-| FechaInterrup   | Fecha y hora de la interrupciÛn                                                                           | Fecha+Hora  |
-| DuracionInterrup| DuraciÛn de la interrupciÛn (horas)                                                                       | Decimal     |
-| MotivoInterrup  | Motivo de la interrupciÛn ()                                                                            | Texto (2)   |
+| IDUsuario       | Identificaci√≥n √∫nica del usuario (identificador, N¬∫ de cuenta, etc. seg√∫n corresponda)                    | Texto (30)  |
+| CodTramite      | Identificaci√≥n √∫nica que el sistema otorga al tr√°mite                                                     | Texto (15)  |
+| FechaNotif      | Fecha de notificaci√≥n al usuario                                                                          | Fecha       |
+| FechaInterrup   | Fecha y hora de la interrupci√≥n                                                                           | Fecha+Hora  |
+| DuracionInterrup| Duraci√≥n de la interrupci√≥n (horas)                                                                       | Decimal     |
+| MotivoInterrup  | Motivo de la interrupci√≥n ()                                                                            | Texto (2)   |
 
 Nota:
-- () El motivo de la interrupciÛn deber· indicarse de acuerdo a la siguiente codificaciÛn:
+- () El motivo de la interrupci√≥n deber√° indicarse de acuerdo a la siguiente codificaci√≥n:
   - Mantenimiento
-  - AmpliaciÛn
+  - Ampliaci√≥n
   - Mejoramiento
 
 TABLA: INTERRUPCIONES
 
-| CAMPO           | DESCRIPCI”N                                                                                              | TIPO        |
+| CAMPO           | DESCRIPCI√ìN                                                                                              | TIPO        |
 |-----------------|----------------------------------------------------------------------------------------------------------|-------------|
-| IDInter         | IdentificaciÛn ˙nica de la interrupciÛn (UnÌvoca para cada interrupciÛn)                                  | Texto (20)  |
-| IDUsuario       | IdentificaciÛn ˙nica del usuario (identificador, N∫ de cuenta, etc. seg˙n corresponda)                    | Texto (30)  |
-| FechaInterrup   | Fecha y hora de la interrupciÛn                                                                           | Fecha+Hora  |
-| FechaReposicion | Fecha y hora de la reposiciÛn                                                                             | Fecha+Hora  |
-| Duracion        | DuraciÛn de la interrupciÛn (horas)                                                                       | Decimal     |
-| CausaInterrup   | Causa de la interrupciÛn ()                                                                             | Texto (2)   |
+| IDInter         | Identificaci√≥n √∫nica de la interrupci√≥n (Un√≠voca para cada interrupci√≥n)                                  | Texto (20)  |
+| IDUsuario       | Identificaci√≥n √∫nica del usuario (identificador, N¬∫ de cuenta, etc. seg√∫n corresponda)                    | Texto (30)  |
+| FechaInterrup   | Fecha y hora de la interrupci√≥n                                                                           | Fecha+Hora  |
+| FechaReposicion | Fecha y hora de la reposici√≥n                                                                             | Fecha+Hora  |
+| Duracion        | Duraci√≥n de la interrupci√≥n (horas)                                                                       | Decimal     |
+| CausaInterrup   | Causa de la interrupci√≥n ()                                                                             | Texto (2)   |
 
 Nota:
-- () La causa de la interrupciÛn deber· indicarse de acuerdo a la siguiente codificaciÛn:
+- () La causa de la interrupci√≥n deber√° indicarse de acuerdo a la siguiente codificaci√≥n:
   - Fallo de equipo
   - Mantenimiento
-  - AmpliaciÛn
+  - Ampliaci√≥n
   - Mejoramiento
   - Otros
 
 TABLA: REP_USUARIOS
 
-| CAMPO           | DESCRIPCI”N                                                                                              | TIPO        |
+| CAMPO           | DESCRIPCI√ìN                                                                                              | TIPO        |
 |-----------------|----------------------------------------------------------------------------------------------------------|-------------|
-| IDUsuario       | IdentificaciÛn ˙nica del usuario (identificador, N∫ de cuenta, etc. seg˙n corresponda)                    | Texto (30)  |
-| CodTramite      | IdentificaciÛn ˙nica que el sistema otorga al tr·mite                                                     | Texto (15)  |
-| FechaInterrup   | Fecha y hora de la interrupciÛn                                                                           | Fecha+Hora  |
+| IDUsuario       | Identificaci√≥n √∫nica del usuario (identificador, N¬∫ de cuenta, etc. seg√∫n corresponda)                    | Texto (30)  |
+| CodTramite      | Identificaci√≥n √∫nica que el sistema otorga al tr√°mite                                                     | Texto (15)  |
+| FechaInterrup   | Fecha y hora de la interrupci√≥n                                                                           | Fecha+Hora  |
 | FechaReposicion | Fecha y
 
- hora de la reposiciÛn                                                                             | Fecha+Hora  |
-| Duracion        | DuraciÛn de la interrupciÛn (horas)                                                                       | Decimal     |
+ hora de la reposici√≥n                                                                             | Fecha+Hora  |
+| Duracion        | Duraci√≥n de la interrupci√≥n (horas)                                                                       | Decimal     |
 
 TABLA: CONSULTA_USUARIOS
 
-| CAMPO           | DESCRIPCI”N                                                                                              | TIPO        |
+| CAMPO           | DESCRIPCI√ìN                                                                                              | TIPO        |
 |-----------------|----------------------------------------------------------------------------------------------------------|-------------|
-| IDUsuario       | IdentificaciÛn ˙nica del usuario (identificador, N∫ de cuenta, etc. seg˙n corresponda)                    | Texto (30)  |
-| CodTramite      | IdentificaciÛn ˙nica que el sistema otorga al tr·mite                                                     | Texto (15)  |
+| IDUsuario       | Identificaci√≥n √∫nica del usuario (identificador, N¬∫ de cuenta, etc. seg√∫n corresponda)                    | Texto (30)  |
+| CodTramite      | Identificaci√≥n √∫nica que el sistema otorga al tr√°mite                                                     | Texto (15)  |
 | FechaConsulta   | Fecha de la consulta                                                                                      | Fecha       |
 | TipoConsulta    | Tipo de consulta ()                                                                                     | Texto (2)   |
 | FechaRespuesta  | Fecha de respuesta                                                                                        | Fecha       |
 
 Nota:
-- () El tipo de consulta deber· indicarse de acuerdo a la siguiente codificaciÛn:
-  - FacturaciÛn
+- () El tipo de consulta deber√° indicarse de acuerdo a la siguiente codificaci√≥n:
+  - Facturaci√≥n
   - Suministro
-  - InformaciÛn general
+  - Informaci√≥n general
   - Otros
 
 TABLA: JUSTIFICACIONES
 
-| CAMPO           | DESCRIPCI”N                                                                                              | TIPO        |
+| CAMPO           | DESCRIPCI√ìN                                                                                              | TIPO        |
 |-----------------|----------------------------------------------------------------------------------------------------------|-------------|
-| IDJustificacion | IdentificaciÛn ˙nica de la justificaciÛn                                                                  | Texto (30)  |
-| CodTramite      | IdentificaciÛn ˙nica que el sistema otorga al tr·mite                                                     | Texto (15)  |
-| Fecha           | Fecha de la justificaciÛn                                                                                 | Fecha       |
-| Motivo          | Motivo de la justificaciÛn ()                                                                           | Texto (2)   |
+| IDJustificacion | Identificaci√≥n √∫nica de la justificaci√≥n                                                                  | Texto (30)  |
+| CodTramite      | Identificaci√≥n √∫nica que el sistema otorga al tr√°mite                                                     | Texto (15)  |
+| Fecha           | Fecha de la justificaci√≥n                                                                                 | Fecha       |
+| Motivo          | Motivo de la justificaci√≥n ()                                                                           | Texto (2)   |
 | Observacion     | Observaciones                                                                                            | Texto (150) |
 
 Nota:
-- () El motivo de la justificaciÛn deber· indicarse de acuerdo a la siguiente codificaciÛn:
+- () El motivo de la justificaci√≥n deber√° indicarse de acuerdo a la siguiente codificaci√≥n:
   - Fuerza Mayor
   - Caso fortuito
   - No imputable a la distribuidora
 
 ---
 
-6. ANEXO 1: Excepciones a la clasificaciÛn por densidad demogr·fica
+6. ANEXO 1: Excepciones a la clasificaci√≥n por densidad demogr√°fica
 
-Se considerar·n como excepciones a la clasificaciÛn por densidad demogr·fica las ·reas rurales, suburbanas y urbanas que presenten caracterÌsticas particulares en cuanto a densidad de poblaciÛn, grado de electrificaciÛn y dispersiÛn geogr·fica. Estas ·reas ser·n definidas y actualizadas periÛdicamente por la SIGET en funciÛn de la evoluciÛn del desarrollo urbano y rural del paÌs.
+Se considerar√°n como excepciones a la clasificaci√≥n por densidad demogr√°fica las √°reas rurales, suburbanas y urbanas que presenten caracter√≠sticas particulares en cuanto a densidad de poblaci√≥n, grado de electrificaci√≥n y dispersi√≥n geogr√°fica. Estas √°reas ser√°n definidas y actualizadas peri√≥dicamente por la SIGET en funci√≥n de la evoluci√≥n del desarrollo urbano y rural del pa√≠s.
 
 ---
-
+git add .
+git commit -m "Fix issues and update MathRenderer with react-mathjax"
+git push
