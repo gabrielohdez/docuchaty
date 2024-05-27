@@ -76,7 +76,7 @@ const Chat = ({ selectedOption }) => {
       <Paper elevation={3} sx={{ padding: 2 }}>
         <Box display="flex" flexDirection="column" alignItems="center">
           <Typography variant="h4" component="div" gutterBottom>
-            DocuChaty
+            
           </Typography>
           <Image
             src="/logo.png"
@@ -98,10 +98,10 @@ const Chat = ({ selectedOption }) => {
           />
           <Box display="flex" justifyContent="space-between" width="100%" sx={{ marginBottom: 2 }}>
             <Button variant="contained" color="primary" onClick={sendMessage} disabled={loading}>
-              Send
+              Consultar
             </Button>
             <Button variant="contained" color="secondary" onClick={clearChat}>
-              Clear Chat
+              Vaciar
             </Button>
           </Box>
           {loading && <CircularProgress sx={{ marginTop: 2 }} />}
@@ -121,7 +121,7 @@ const Chat = ({ selectedOption }) => {
                 onClick={copyResponse}
                 sx={{ marginTop: 1 }}
               >
-                Copy Response
+                Copiar Respuesta
               </Button>
             </Box>
           )}
